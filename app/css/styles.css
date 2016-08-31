@@ -1,0 +1,152 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.mesa-de-hamburguers {
+  display: flex;
+  align-items: baseline;
+  justify-content: center; }
+
+.pao-de-cima {
+  display: none;
+  width: 300px;
+  height: 128px;
+  position: relative;
+  background: url("../images/pao-de-cima.png") no-repeat center center;
+  z-index: 10;
+  margin-bottom: 15px; }
+
+.cebola {
+  display: none;
+  width: 300px;
+  height: 80px;
+  position: relative;
+  margin: -50px 0;
+  background: url("../images/cebola.png") no-repeat center center;
+  z-index: 9; }
+
+.bacon {
+  display: none;
+  width: 300px;
+  height: 117px;
+  position: relative;
+  margin: -70px 0;
+  background: url("../images/bacon.png") no-repeat center center;
+  z-index: 8; }
+
+.tomate {
+  display: none;
+  width: 300px;
+  height: 80px;
+  position: relative;
+  margin: -60px 0;
+  background: url("../images/tomate.png") no-repeat center center;
+  z-index: 7; }
+
+.alface {
+  display: none;
+  width: 300px;
+  height: 136px;
+  position: relative;
+  margin: -75px 0;
+  background: url("../images/alface.png") no-repeat center center;
+  z-index: 6; }
+
+.mostarda {
+  display: none;
+  width: 300px;
+  height: 82px;
+  position: relative;
+  margin: -62px 0px;
+  background: url("../images/mostarda.png") no-repeat center center;
+  z-index: 5; }
+
+.ketchup {
+  display: none;
+  width: 300px;
+  height: 82px;
+  position: relative;
+  margin: -71px 0 -86px 0;
+  background: url("../images/ketchup.png") no-repeat center center;
+  z-index: 4; }
+
+.queijo {
+  display: none;
+  width: 300px;
+  height: 77px;
+  position: relative;
+  margin: -62px 0;
+  background: url("../images/queijo.png") no-repeat center center;
+  z-index: 3; }
+
+.hamburguer {
+  display: none;
+  width: 300px;
+  height: 134px;
+  position: relative;
+  margin-top: -100px;
+  background: url("../images/hamburguer.png") no-repeat center center;
+  z-index: 2; }
+
+.pao-de-baixo {
+  display: none;
+  width: 300px;
+  height: 107px;
+  position: relative;
+  margin-top: -70px;
+  background: url("../images/pao-de-baixo.png") no-repeat center center;
+  z-index: 1; }
+
+.sanduiche-do-tipo-hamburguer .pao-de-cima, .x-tudo .pao-de-cima, .x-salada .pao-de-cima, .x-burguer .pao-de-cima {
+  display: block; }
+
+.sanduiche-do-tipo-hamburguer .pao-de-baixo, .x-tudo .pao-de-baixo, .x-salada .pao-de-baixo, .x-burguer .pao-de-baixo {
+  display: block; }
+
+.sanduiche-do-tipo-hamburguer .hamburguer, .x-tudo .hamburguer, .x-salada .hamburguer, .x-burguer .hamburguer {
+  display: block; }
+
+.x-tudo .cebola {
+  display: block; }
+
+.x-tudo .bacon {
+  display: block; }
+
+.x-tudo .tomate {
+  display: block; }
+
+.x-tudo .alface {
+  display: block; }
+
+.x-tudo .ketchup {
+  display: block; }
+
+.x-tudo .mostarda {
+  display: block; }
+
+.x-tudo .queijo {
+  display: block; }
+
+.x-salada .tomate {
+  display: block; }
+
+.x-salada .alface {
+  display: block; }
+
+.x-salada .queijo {
+  display: block; }
+
+.x-burguer .ketchup {
+  display: block; }
+
+.x-burguer .mostarda {
+  display: block; }
+
+.x-burguer .queijo {
+  display: block; }

@@ -1,0 +1,232 @@
+$width: 300px;
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mesa-de-hamburguers {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.pao-de-cima {
+  display: none;
+  width: $width;
+  height: 128px;
+  position: relative;
+  background: url('../images/pao-de-cima.png') no-repeat center center;
+  z-index: 10;
+  margin-bottom: 15px;
+}
+.cebola {
+  display: none;
+  width: $width;
+  height: 80px;
+  position: relative;
+  margin: -50px 0;
+  background: url('../images/cebola.png') no-repeat center center;
+  z-index: 9;
+}
+.bacon {
+  display: none;
+  width: $width;
+  height: 117px;
+  position: relative;
+  margin: -70px 0;
+  background: url('../images/bacon.png') no-repeat center center;
+  z-index: 8;
+}
+.tomate {
+  display: none;
+  width: $width;
+  height: 80px;
+  position: relative;
+  margin: -60px 0;
+  background: url('../images/tomate.png') no-repeat center center;
+  z-index: 7;
+}
+.alface {
+  display: none;
+  width: $width;
+  height: 136px;
+  position: relative;
+  margin: -75px 0;
+  background: url('../images/alface.png') no-repeat center center;
+  z-index: 6;
+}
+.mostarda {
+  display: none;
+  width: $width;
+  height: 82px;
+  position: relative;
+  margin: -62px 0px;
+  background: url('../images/mostarda.png') no-repeat center center;
+  z-index: 5;
+}
+.ketchup {
+  display: none;
+  width: $width;
+  height: 82px;
+  position: relative;
+  margin: -71px 0 -86px 0;
+  background: url('../images/ketchup.png') no-repeat center center;
+  z-index: 4;
+}
+.queijo {
+  display: none;
+  width: $width;
+  height: 77px;
+  position: relative;
+  margin: -62px 0;
+  background: url('../images/queijo.png') no-repeat center center;
+  z-index: 3;
+}
+.hamburguer {
+  display: none;
+  width: $width;
+  height: 134px;
+  position: relative;
+  margin-top: -100px;
+  background: url('../images/hamburguer.png') no-repeat center center;
+  z-index: 2;
+}
+.pao-de-baixo {
+  display: none;
+  width: $width;
+  height: 107px;
+  position: relative;
+  margin-top: -70px;
+  background: url('../images/pao-de-baixo.png') no-repeat center center;
+  z-index: 1;
+}
+
+ //--- FIM DO 'mise en place' (palavra elegante da PORRA!) --- //
+
+
+// EXEMPLO 1: 'Herdando' a regra baseado no pai
+//  .daiki .sanduiche-do-tipo-hamburguer{
+//    .pao-de-cima { display: block; }
+//    .pao-de-baixo { display: block; }
+//    .hamburguer { display: block; }
+//    .cebola { display: block; }
+//    .bacon { display: block; }
+//    .tomate { display: block; }
+//    .alface { display: block; }
+//    .ketchup { display: block; }
+//    .mostarda { display: block; }
+//    .queijo { display: block; }
+//  }
+//
+//  .eduardo .sanduiche-do-tipo-hamburguer{
+//    .pao-de-cima { display: block; }
+//    .pao-de-baixo { display: block; }
+//    .hamburguer { display: block; }
+//    .cebola { display: block; }
+//    .tomate { display: block; }
+//    .alface { display: block; }
+//    .queijo { display: block; }
+//  }
+//
+// .guilherme .sanduiche-do-tipo-hamburguer{
+//   .pao-de-cima { display: block; }
+//   .pao-de-baixo { display: block; }
+//   .hamburguer { display: block; }
+//   .ketchup { display: block; }
+//   .mostarda { display: block; }
+//   .queijo { display: block; }
+// }
+
+//EXEMPLO 2: 'COMPONDO' de forma pouco elegante (não esquece de mostrar o HTML, asno!)
+
+// .sanduiche-do-tipo-hamburguer {
+//   .pao-de-cima { display: block; }
+//   .pao-de-baixo { display: block; }
+//   .hamburguer { display: block; }
+//
+//   &.--com-cebola .cebola { display: block; }
+//   &.--com-bacon .bacon { display: block; }
+//   &.--com-tomate .tomate { display: block; }
+//   &.--com-alface .alface { display: block; }
+//   &.--com-ketchup .ketchup { display: block; }
+//   &.--com-mostarda .mostarda { display: block; }
+//   &.--com-queijo .queijo { display: block; }
+// }
+
+//EXEMPLO 3: 'COMPONDO' de forma elegante (não esquece de mostrar o HTML, asno!)
+
+// .sanduiche-do-tipo-hamburguer{
+//   .pao-de-cima { display: block; }
+//   .pao-de-baixo { display: block; }
+//   .hamburguer { display: block; }
+//
+//   &.x-tudo {
+//     .cebola { display: block; }
+//     .bacon { display: block; }
+//     .tomate { display: block; }
+//     .alface { display: block; }
+//     .ketchup { display: block; }
+//     .mostarda { display: block; }
+//     .queijo { display: block; }
+//   }
+//
+//   &.x-salada {
+//     .tomate { display: block; }
+//     .alface { display: block; }
+//     .queijo { display: block; }
+//   }
+//
+//   &.x-burguer {
+//     .ketchup { display: block; }
+//     .mostarda { display: block; }
+//     .queijo { display: block; }
+//   }
+// }
+
+
+//EXEMPLO 3: 'COMPONDO' de forma fresca (daqui em diante só vem 'punhetagem')
+
+.sanduiche-do-tipo-hamburguer {
+  .pao-de-cima { display: block; }
+  .pao-de-baixo { display: block; }
+  .hamburguer { display: block; }
+}
+
+.x-tudo {
+  @extend .sanduiche-do-tipo-hamburguer;
+  .cebola { display: block; }
+  .bacon { display: block; }
+  .tomate { display: block; }
+  .alface { display: block; }
+  .ketchup { display: block; }
+  .mostarda { display: block; }
+  .queijo { display: block; }
+}
+
+.x-salada {
+  @extend .sanduiche-do-tipo-hamburguer;
+  .tomate { display: block; }
+  .alface { display: block; }
+  .queijo { display: block; }
+}
+
+.x-burguer {
+  @extend .sanduiche-do-tipo-hamburguer;
+  .ketchup { display: block; }
+  .mostarda { display: block; }
+  .queijo { display: block; }
+}
+
+
+
+
+
+
+// probema muito !important 

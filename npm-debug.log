@@ -1,0 +1,2108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'http-server' ]
+2 info using npm@3.8.6
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData http-server
+8 silly fetchNamedPackageData http-server
+9 silly mapToRegistry name http-server
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'http-server',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'http-server',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/http-server
+14 verbose request uri https://nqa-nexus.sprinklr.com:5873/http-server
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 07:42:19
+17 verbose request id d826d46b725e1e1e
+18 http request GET https://nqa-nexus.sprinklr.com:5873/http-server
+19 http 200 https://nqa-nexus.sprinklr.com:5873/http-server
+20 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+20 verbose headers   'content-type': 'application/json; charset=utf-8',
+20 verbose headers   etag: '"7ef0a1ac09b002c8f71ce1f23c4af618"',
+20 verbose headers   vary: 'Accept-Encoding',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+20 verbose headers   date: 'Wed, 31 Aug 2016 10:42:19 GMT',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'transfer-encoding': 'chunked' }
+21 silly get cb [ 200,
+21 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+21 silly get     'content-type': 'application/json; charset=utf-8',
+21 silly get     etag: '"7ef0a1ac09b002c8f71ce1f23c4af618"',
+21 silly get     vary: 'Accept-Encoding',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+21 silly get     date: 'Wed, 31 Aug 2016 10:42:19 GMT',
+21 silly get     connection: 'keep-alive',
+21 silly get     'transfer-encoding': 'chunked' } ]
+22 verbose get saving http-server to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/http-server/.cache.json
+23 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule http-server@0.9.0 checking installable status
+37 silly cache add args [ 'http-server', null ]
+38 verbose cache add spec http-server
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'http-server',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'http-server',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed http-server@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for http-server
+42 info addNameTag [ 'http-server', 'latest' ]
+43 silly mapToRegistry name http-server
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'http-server',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'http-server',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/http-server
+48 verbose addNameTag registry:https://nqa-nexus.sprinklr.com:5873/http-server not in flight; fetching
+49 verbose get https://nqa-nexus.sprinklr.com:5873/http-server not expired, no request
+50 silly addNameTag next cb for http-server with tag latest
+51 silly addNamed http-server@0.9.0
+52 verbose addNamed "0.9.0" is a plain semver version for http-server
+53 silly mapToRegistry name http-server
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'http-server',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'http-server',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/http-server
+58 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/http-server/-/http-server-0.9.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/http-server/-/http-server-0.9.0.tgz',
+59 verbose addRemoteTarball   '8f1b06bdc733618d4dc42831c7ba1aff4e06001a' ]
+60 info retry fetch attempt 1 at 07:42:19
+61 info attempt registry request try #1 at 07:42:19
+62 http fetch GET https://nqa-nexus.sprinklr.com:5873/http-server/-/http-server-0.9.0.tgz
+63 http fetch 200 https://nqa-nexus.sprinklr.com:5873/http-server/-/http-server-0.9.0.tgz
+64 silly fetchAndShaCheck shasum 8f1b06bdc733618d4dc42831c7ba1aff4e06001a
+65 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/http-server/-/http-server-0.9.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for http-server@0.9.0
+67 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd http-server@0.9.0
+69 verbose afterAdd /Users/eduardohenrique/.npm/http-server/0.9.0/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/eduardohenrique/.npm/http-server/0.9.0/package/package.json written
+72 silly fetchNamedPackageData colors
+73 silly mapToRegistry name colors
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'colors',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'colors',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/colors
+78 silly fetchNamedPackageData corser
+79 silly mapToRegistry name corser
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'corser',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   name: 'corser',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/corser
+84 silly fetchNamedPackageData ecstatic
+85 silly mapToRegistry name ecstatic
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'ecstatic',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   name: 'ecstatic',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/ecstatic
+90 silly fetchNamedPackageData http-proxy
+91 silly mapToRegistry name http-proxy
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'http-proxy',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   name: 'http-proxy',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/http-proxy
+96 silly fetchNamedPackageData opener
+97 silly mapToRegistry name opener
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'opener',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   name: 'opener',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/opener
+102 silly fetchNamedPackageData optimist
+103 silly mapToRegistry name optimist
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'optimist',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   name: 'optimist',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/optimist
+108 silly fetchNamedPackageData portfinder
+109 silly mapToRegistry name portfinder
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: 'portfinder',
+112 silly mapToRegistry   scope: null,
+112 silly mapToRegistry   name: 'portfinder',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag' }
+113 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/portfinder
+114 silly fetchNamedPackageData union
+115 silly mapToRegistry name union
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+118 silly mapToRegistry data Result {
+118 silly mapToRegistry   raw: 'union',
+118 silly mapToRegistry   scope: null,
+118 silly mapToRegistry   name: 'union',
+118 silly mapToRegistry   rawSpec: '',
+118 silly mapToRegistry   spec: 'latest',
+118 silly mapToRegistry   type: 'tag' }
+119 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/union
+120 verbose request uri https://nqa-nexus.sprinklr.com:5873/corser
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 07:42:21
+123 http request GET https://nqa-nexus.sprinklr.com:5873/corser
+124 verbose request uri https://nqa-nexus.sprinklr.com:5873/ecstatic
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 07:42:21
+127 http request GET https://nqa-nexus.sprinklr.com:5873/ecstatic
+128 verbose request uri https://nqa-nexus.sprinklr.com:5873/opener
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 07:42:21
+131 http request GET https://nqa-nexus.sprinklr.com:5873/opener
+132 verbose request uri https://nqa-nexus.sprinklr.com:5873/portfinder
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 07:42:21
+135 http request GET https://nqa-nexus.sprinklr.com:5873/portfinder
+136 verbose request uri https://nqa-nexus.sprinklr.com:5873/union
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 07:42:21
+139 http request GET https://nqa-nexus.sprinklr.com:5873/union
+140 verbose request uri https://nqa-nexus.sprinklr.com:5873/colors
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 07:42:21
+143 verbose etag "aca3622178ae4c7bfd9624e620034072"
+144 http request GET https://nqa-nexus.sprinklr.com:5873/colors
+145 verbose request uri https://nqa-nexus.sprinklr.com:5873/optimist
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 07:42:21
+148 verbose etag "d3b8a8908f0065ba24bd3d52521208b1"
+149 http request GET https://nqa-nexus.sprinklr.com:5873/optimist
+150 verbose request uri https://nqa-nexus.sprinklr.com:5873/http-proxy
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 07:42:21
+153 verbose etag "ecbd431feb09b69f245c517004b572ee"
+154 http request GET https://nqa-nexus.sprinklr.com:5873/http-proxy
+155 http 304 https://nqa-nexus.sprinklr.com:5873/http-proxy
+156 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+156 verbose headers   etag: '"ecbd431feb09b69f245c517004b572ee"',
+156 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+156 verbose headers   date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+156 verbose headers   connection: 'keep-alive' }
+157 silly get cb [ 304,
+157 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+157 silly get     etag: '"ecbd431feb09b69f245c517004b572ee"',
+157 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+157 silly get     date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+157 silly get     connection: 'keep-alive' } ]
+158 verbose etag https://nqa-nexus.sprinklr.com:5873/http-proxy from cache
+159 verbose get saving http-proxy to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/http-proxy/.cache.json
+160 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+161 silly resolveWithNewModule http-proxy@1.14.0 checking installable status
+162 silly cache add args [ 'http-proxy@^1.8.1', null ]
+163 verbose cache add spec http-proxy@^1.8.1
+164 silly cache add parsed spec Result {
+164 silly cache add   raw: 'http-proxy@^1.8.1',
+164 silly cache add   scope: null,
+164 silly cache add   name: 'http-proxy',
+164 silly cache add   rawSpec: '^1.8.1',
+164 silly cache add   spec: '>=1.8.1 <2.0.0',
+164 silly cache add   type: 'range' }
+165 silly addNamed http-proxy@>=1.8.1 <2.0.0
+166 verbose addNamed ">=1.8.1 <2.0.0" is a valid semver range for http-proxy
+167 silly addNameRange { name: 'http-proxy', range: '>=1.8.1 <2.0.0', hasData: false }
+168 silly mapToRegistry name http-proxy
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+171 silly mapToRegistry data Result {
+171 silly mapToRegistry   raw: 'http-proxy',
+171 silly mapToRegistry   scope: null,
+171 silly mapToRegistry   name: 'http-proxy',
+171 silly mapToRegistry   rawSpec: '',
+171 silly mapToRegistry   spec: 'latest',
+171 silly mapToRegistry   type: 'tag' }
+172 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/http-proxy
+173 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/http-proxy not in flight; fetching
+174 verbose get https://nqa-nexus.sprinklr.com:5873/http-proxy not expired, no request
+175 silly addNameRange number 2 { name: 'http-proxy', range: '>=1.8.1 <2.0.0', hasData: true }
+176 silly addNameRange versions [ 'http-proxy',
+176 silly addNameRange   [ '0.5.9',
+176 silly addNameRange     '0.5.10',
+176 silly addNameRange     '0.5.11',
+176 silly addNameRange     '0.6.0',
+176 silly addNameRange     '0.6.1',
+176 silly addNameRange     '0.6.2',
+176 silly addNameRange     '0.6.4',
+176 silly addNameRange     '0.6.5',
+176 silly addNameRange     '0.6.6',
+176 silly addNameRange     '0.7.0',
+176 silly addNameRange     '0.7.2',
+176 silly addNameRange     '0.7.3',
+176 silly addNameRange     '0.7.4',
+176 silly addNameRange     '0.7.5',
+176 silly addNameRange     '0.7.6',
+176 silly addNameRange     '0.8.0',
+176 silly addNameRange     '0.8.1',
+176 silly addNameRange     '0.8.2',
+176 silly addNameRange     '0.8.3',
+176 silly addNameRange     '0.8.4',
+176 silly addNameRange     '0.8.5',
+176 silly addNameRange     '0.8.6',
+176 silly addNameRange     '0.8.7',
+176 silly addNameRange     '0.9.0',
+176 silly addNameRange     '0.9.1',
+176 silly addNameRange     '0.10.0',
+176 silly addNameRange     '0.10.1',
+176 silly addNameRange     '0.10.2',
+176 silly addNameRange     '0.10.3',
+176 silly addNameRange     '0.10.4',
+176 silly addNameRange     '1.0.0',
+176 silly addNameRange     '1.0.1',
+176 silly addNameRange     '1.0.2',
+176 silly addNameRange     '1.0.3',
+176 silly addNameRange     '1.1.0',
+176 silly addNameRange     '1.1.1',
+176 silly addNameRange     '1.1.2',
+176 silly addNameRange     '1.1.3',
+176 silly addNameRange     '1.1.4',
+176 silly addNameRange     '1.1.5',
+176 silly addNameRange     '1.1.6',
+176 silly addNameRange     '1.2.0',
+176 silly addNameRange     '1.2.1',
+176 silly addNameRange     '1.3.0',
+176 silly addNameRange     '1.4.0',
+176 silly addNameRange     '1.4.1',
+176 silly addNameRange     '1.4.2',
+176 silly addNameRange     '1.4.3',
+176 silly addNameRange     '1.5.0',
+176 silly addNameRange     '1.5.1',
+176 silly addNameRange     '1.5.2',
+176 silly addNameRange     '1.5.3',
+176 silly addNameRange     '1.6.0',
+176 silly addNameRange     '1.6.1',
+176 silly addNameRange     '1.6.2',
+176 silly addNameRange     '1.7.0',
+176 silly addNameRange     '1.7.1',
+176 silly addNameRange     '1.7.2',
+176 silly addNameRange     '1.7.3',
+176 silly addNameRange     '1.8.0',
+176 silly addNameRange     '1.8.1',
+176 silly addNameRange     '1.9.0',
+176 silly addNameRange     '1.9.1',
+176 silly addNameRange     '1.10.0',
+176 silly addNameRange     '1.10.1',
+176 silly addNameRange     '1.11.0',
+176 silly addNameRange     '1.11.1',
+176 silly addNameRange     '1.11.2',
+176 silly addNameRange     '1.11.3',
+176 silly addNameRange     '1.12.0',
+176 silly addNameRange     '1.12.1',
+176 silly addNameRange     '1.13.0',
+176 silly addNameRange     '1.13.1',
+176 silly addNameRange     '1.13.2',
+176 silly addNameRange     '1.13.3',
+176 silly addNameRange     '1.14.0' ] ]
+177 silly addNamed http-proxy@1.14.0
+178 verbose addNamed "1.14.0" is a plain semver version for http-proxy
+179 silly cache afterAdd http-proxy@1.14.0
+180 verbose afterAdd /Users/eduardohenrique/.npm/http-proxy/1.14.0/package/package.json not in flight; writing
+181 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+182 verbose afterAdd /Users/eduardohenrique/.npm/http-proxy/1.14.0/package/package.json written
+183 http 200 https://nqa-nexus.sprinklr.com:5873/portfinder
+184 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+184 verbose headers   'content-type': 'application/json; charset=utf-8',
+184 verbose headers   etag: '"04a98a460dab14f1aebff4308b9a2634"',
+184 verbose headers   vary: 'Accept-Encoding',
+184 verbose headers   'content-encoding': 'gzip',
+184 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+184 verbose headers   date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'transfer-encoding': 'chunked' }
+185 silly get cb [ 200,
+185 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+185 silly get     'content-type': 'application/json; charset=utf-8',
+185 silly get     etag: '"04a98a460dab14f1aebff4308b9a2634"',
+185 silly get     vary: 'Accept-Encoding',
+185 silly get     'content-encoding': 'gzip',
+185 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+185 silly get     date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+185 silly get     connection: 'keep-alive',
+185 silly get     'transfer-encoding': 'chunked' } ]
+186 verbose get saving portfinder to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/portfinder/.cache.json
+187 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+188 http 200 https://nqa-nexus.sprinklr.com:5873/corser
+189 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+189 verbose headers   'content-type': 'application/json; charset=utf-8',
+189 verbose headers   etag: '"6c332b952d9a8a4b8d642bcfc1d640dd"',
+189 verbose headers   vary: 'Accept-Encoding',
+189 verbose headers   'content-encoding': 'gzip',
+189 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+189 verbose headers   date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+189 verbose headers   connection: 'keep-alive',
+189 verbose headers   'transfer-encoding': 'chunked' }
+190 silly get cb [ 200,
+190 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+190 silly get     'content-type': 'application/json; charset=utf-8',
+190 silly get     etag: '"6c332b952d9a8a4b8d642bcfc1d640dd"',
+190 silly get     vary: 'Accept-Encoding',
+190 silly get     'content-encoding': 'gzip',
+190 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+190 silly get     date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+190 silly get     connection: 'keep-alive',
+190 silly get     'transfer-encoding': 'chunked' } ]
+191 verbose get saving corser to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/corser/.cache.json
+192 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+193 http 200 https://nqa-nexus.sprinklr.com:5873/ecstatic
+194 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+194 verbose headers   'content-type': 'application/json; charset=utf-8',
+194 verbose headers   etag: '"b9639318432ab84dced684be922fe630"',
+194 verbose headers   vary: 'Accept-Encoding',
+194 verbose headers   'content-encoding': 'gzip',
+194 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+194 verbose headers   date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+194 verbose headers   connection: 'keep-alive',
+194 verbose headers   'transfer-encoding': 'chunked' }
+195 silly get cb [ 200,
+195 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+195 silly get     'content-type': 'application/json; charset=utf-8',
+195 silly get     etag: '"b9639318432ab84dced684be922fe630"',
+195 silly get     vary: 'Accept-Encoding',
+195 silly get     'content-encoding': 'gzip',
+195 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+195 silly get     date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+195 silly get     connection: 'keep-alive',
+195 silly get     'transfer-encoding': 'chunked' } ]
+196 verbose get saving ecstatic to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/ecstatic/.cache.json
+197 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+198 silly resolveWithNewModule portfinder@0.4.0 checking installable status
+199 silly cache add args [ 'portfinder@0.4.x', null ]
+200 verbose cache add spec portfinder@0.4.x
+201 silly cache add parsed spec Result {
+201 silly cache add   raw: 'portfinder@0.4.x',
+201 silly cache add   scope: null,
+201 silly cache add   name: 'portfinder',
+201 silly cache add   rawSpec: '0.4.x',
+201 silly cache add   spec: '>=0.4.0 <0.5.0',
+201 silly cache add   type: 'range' }
+202 silly addNamed portfinder@>=0.4.0 <0.5.0
+203 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for portfinder
+204 silly addNameRange { name: 'portfinder', range: '>=0.4.0 <0.5.0', hasData: false }
+205 silly mapToRegistry name portfinder
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+208 silly mapToRegistry data Result {
+208 silly mapToRegistry   raw: 'portfinder',
+208 silly mapToRegistry   scope: null,
+208 silly mapToRegistry   name: 'portfinder',
+208 silly mapToRegistry   rawSpec: '',
+208 silly mapToRegistry   spec: 'latest',
+208 silly mapToRegistry   type: 'tag' }
+209 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/portfinder
+210 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/portfinder not in flight; fetching
+211 http 200 https://nqa-nexus.sprinklr.com:5873/colors
+212 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+212 verbose headers   'content-type': 'application/json; charset=utf-8',
+212 verbose headers   etag: '"1681aaad34fafc2c9209cc30690f1763"',
+212 verbose headers   vary: 'Accept-Encoding',
+212 verbose headers   'content-encoding': 'gzip',
+212 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+212 verbose headers   date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+212 verbose headers   connection: 'keep-alive',
+212 verbose headers   'transfer-encoding': 'chunked' }
+213 silly get cb [ 200,
+213 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+213 silly get     'content-type': 'application/json; charset=utf-8',
+213 silly get     etag: '"1681aaad34fafc2c9209cc30690f1763"',
+213 silly get     vary: 'Accept-Encoding',
+213 silly get     'content-encoding': 'gzip',
+213 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+213 silly get     date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+213 silly get     connection: 'keep-alive',
+213 silly get     'transfer-encoding': 'chunked' } ]
+214 verbose get saving colors to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/colors/.cache.json
+215 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+216 verbose get https://nqa-nexus.sprinklr.com:5873/portfinder not expired, no request
+217 silly addNameRange number 2 { name: 'portfinder', range: '>=0.4.0 <0.5.0', hasData: true }
+218 silly addNameRange versions [ 'portfinder',
+218 silly addNameRange   [ '0.1.0',
+218 silly addNameRange     '0.2.0',
+218 silly addNameRange     '0.2.1',
+218 silly addNameRange     '0.3.0',
+218 silly addNameRange     '0.4.0',
+218 silly addNameRange     '1.0.0',
+218 silly addNameRange     '1.0.1',
+218 silly addNameRange     '1.0.2',
+218 silly addNameRange     '1.0.3',
+218 silly addNameRange     '1.0.4',
+218 silly addNameRange     '1.0.5',
+218 silly addNameRange     '1.0.6',
+218 silly addNameRange     '1.0.7-beta.0',
+218 silly addNameRange     '1.0.7' ] ]
+219 silly addNamed portfinder@0.4.0
+220 verbose addNamed "0.4.0" is a plain semver version for portfinder
+221 silly mapToRegistry name portfinder
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+224 silly mapToRegistry data Result {
+224 silly mapToRegistry   raw: 'portfinder',
+224 silly mapToRegistry   scope: null,
+224 silly mapToRegistry   name: 'portfinder',
+224 silly mapToRegistry   rawSpec: '',
+224 silly mapToRegistry   spec: 'latest',
+224 silly mapToRegistry   type: 'tag' }
+225 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/portfinder
+226 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/portfinder/-/portfinder-0.4.0.tgz not in flight; adding
+227 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/portfinder/-/portfinder-0.4.0.tgz',
+227 verbose addRemoteTarball   'a3ffadffafe4fb98e0601a85eda27c27ce84ca1e' ]
+228 http 200 https://nqa-nexus.sprinklr.com:5873/optimist
+229 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+229 verbose headers   'content-type': 'application/json; charset=utf-8',
+229 verbose headers   etag: '"b4f2b4737975b94fc97fd51a6c25edc8"',
+229 verbose headers   vary: 'Accept-Encoding',
+229 verbose headers   'content-encoding': 'gzip',
+229 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+229 verbose headers   date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+229 verbose headers   connection: 'keep-alive',
+229 verbose headers   'transfer-encoding': 'chunked' }
+230 silly get cb [ 200,
+230 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+230 silly get     'content-type': 'application/json; charset=utf-8',
+230 silly get     etag: '"b4f2b4737975b94fc97fd51a6c25edc8"',
+230 silly get     vary: 'Accept-Encoding',
+230 silly get     'content-encoding': 'gzip',
+230 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+230 silly get     date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+230 silly get     connection: 'keep-alive',
+230 silly get     'transfer-encoding': 'chunked' } ]
+231 verbose get saving optimist to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/optimist/.cache.json
+232 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+233 silly resolveWithNewModule corser@2.0.1 checking installable status
+234 silly cache add args [ 'corser@~2.0.0', null ]
+235 verbose cache add spec corser@~2.0.0
+236 silly cache add parsed spec Result {
+236 silly cache add   raw: 'corser@~2.0.0',
+236 silly cache add   scope: null,
+236 silly cache add   name: 'corser',
+236 silly cache add   rawSpec: '~2.0.0',
+236 silly cache add   spec: '>=2.0.0 <2.1.0',
+236 silly cache add   type: 'range' }
+237 silly addNamed corser@>=2.0.0 <2.1.0
+238 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for corser
+239 silly addNameRange { name: 'corser', range: '>=2.0.0 <2.1.0', hasData: false }
+240 silly mapToRegistry name corser
+241 silly mapToRegistry using default registry
+242 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+243 silly mapToRegistry data Result {
+243 silly mapToRegistry   raw: 'corser',
+243 silly mapToRegistry   scope: null,
+243 silly mapToRegistry   name: 'corser',
+243 silly mapToRegistry   rawSpec: '',
+243 silly mapToRegistry   spec: 'latest',
+243 silly mapToRegistry   type: 'tag' }
+244 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/corser
+245 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/corser not in flight; fetching
+246 silly resolveWithNewModule ecstatic@1.4.1 checking installable status
+247 silly cache add args [ 'ecstatic@^1.4.0', null ]
+248 verbose cache add spec ecstatic@^1.4.0
+249 silly cache add parsed spec Result {
+249 silly cache add   raw: 'ecstatic@^1.4.0',
+249 silly cache add   scope: null,
+249 silly cache add   name: 'ecstatic',
+249 silly cache add   rawSpec: '^1.4.0',
+249 silly cache add   spec: '>=1.4.0 <2.0.0',
+249 silly cache add   type: 'range' }
+250 silly addNamed ecstatic@>=1.4.0 <2.0.0
+251 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for ecstatic
+252 silly addNameRange { name: 'ecstatic', range: '>=1.4.0 <2.0.0', hasData: false }
+253 silly mapToRegistry name ecstatic
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'ecstatic',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   name: 'ecstatic',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/ecstatic
+258 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/ecstatic not in flight; fetching
+259 info retry fetch attempt 1 at 07:42:21
+260 info attempt registry request try #1 at 07:42:21
+261 http fetch GET https://nqa-nexus.sprinklr.com:5873/portfinder/-/portfinder-0.4.0.tgz
+262 silly resolveWithNewModule colors@1.0.3 checking installable status
+263 silly cache add args [ 'colors@1.0.3', null ]
+264 verbose cache add spec colors@1.0.3
+265 silly cache add parsed spec Result {
+265 silly cache add   raw: 'colors@1.0.3',
+265 silly cache add   scope: null,
+265 silly cache add   name: 'colors',
+265 silly cache add   rawSpec: '1.0.3',
+265 silly cache add   spec: '1.0.3',
+265 silly cache add   type: 'version' }
+266 silly addNamed colors@1.0.3
+267 verbose addNamed "1.0.3" is a plain semver version for colors
+268 silly mapToRegistry name colors
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+271 silly mapToRegistry data Result {
+271 silly mapToRegistry   raw: 'colors',
+271 silly mapToRegistry   scope: null,
+271 silly mapToRegistry   name: 'colors',
+271 silly mapToRegistry   rawSpec: '',
+271 silly mapToRegistry   spec: 'latest',
+271 silly mapToRegistry   type: 'tag' }
+272 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/colors
+273 verbose addNameVersion registry:https://nqa-nexus.sprinklr.com:5873/colors not in flight; fetching
+274 http 200 https://nqa-nexus.sprinklr.com:5873/opener
+275 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+275 verbose headers   'content-type': 'application/json; charset=utf-8',
+275 verbose headers   etag: '"70b1a7d6b4da588d19f9c9729dca3b32"',
+275 verbose headers   vary: 'Accept-Encoding',
+275 verbose headers   'content-encoding': 'gzip',
+275 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+275 verbose headers   date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+275 verbose headers   connection: 'keep-alive',
+275 verbose headers   'transfer-encoding': 'chunked' }
+276 silly get cb [ 200,
+276 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+276 silly get     'content-type': 'application/json; charset=utf-8',
+276 silly get     etag: '"70b1a7d6b4da588d19f9c9729dca3b32"',
+276 silly get     vary: 'Accept-Encoding',
+276 silly get     'content-encoding': 'gzip',
+276 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+276 silly get     date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+276 silly get     connection: 'keep-alive',
+276 silly get     'transfer-encoding': 'chunked' } ]
+277 verbose get saving opener to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/opener/.cache.json
+278 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+279 verbose get https://nqa-nexus.sprinklr.com:5873/corser not expired, no request
+280 silly addNameRange number 2 { name: 'corser', range: '>=2.0.0 <2.1.0', hasData: true }
+281 silly addNameRange versions [ 'corser',
+281 silly addNameRange   [ '0.1.0',
+281 silly addNameRange     '0.2.0',
+281 silly addNameRange     '1.0.0',
+281 silly addNameRange     '1.0.1',
+281 silly addNameRange     '1.0.2',
+281 silly addNameRange     '1.1.0',
+281 silly addNameRange     '1.1.1',
+281 silly addNameRange     '1.1.2',
+281 silly addNameRange     '1.2.0',
+281 silly addNameRange     '2.0.0',
+281 silly addNameRange     '2.0.1' ] ]
+282 silly addNamed corser@2.0.1
+283 verbose addNamed "2.0.1" is a plain semver version for corser
+284 silly mapToRegistry name corser
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+287 silly mapToRegistry data Result {
+287 silly mapToRegistry   raw: 'corser',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   name: 'corser',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/corser
+289 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/corser/-/corser-2.0.1.tgz not in flight; adding
+290 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/corser/-/corser-2.0.1.tgz',
+290 verbose addRemoteTarball   '8eda252ecaab5840dcd975ceb90d9370c819ff87' ]
+291 verbose get https://nqa-nexus.sprinklr.com:5873/ecstatic not expired, no request
+292 silly addNameRange number 2 { name: 'ecstatic', range: '>=1.4.0 <2.0.0', hasData: true }
+293 silly addNameRange versions [ 'ecstatic',
+293 silly addNameRange   [ '0.0.0',
+293 silly addNameRange     '0.0.1',
+293 silly addNameRange     '0.1.0',
+293 silly addNameRange     '0.1.1',
+293 silly addNameRange     '0.1.1-1',
+293 silly addNameRange     '0.1.2',
+293 silly addNameRange     '0.1.2-1',
+293 silly addNameRange     '0.1.4',
+293 silly addNameRange     '0.1.5',
+293 silly addNameRange     '0.1.6',
+293 silly addNameRange     '0.1.7',
+293 silly addNameRange     '0.3.0',
+293 silly addNameRange     '0.3.1',
+293 silly addNameRange     '0.3.2',
+293 silly addNameRange     '0.4.0',
+293 silly addNameRange     '0.4.1',
+293 silly addNameRange     '0.4.2',
+293 silly addNameRange     '0.4.3',
+293 silly addNameRange     '0.4.4',
+293 silly addNameRange     '0.4.5',
+293 silly addNameRange     '0.4.6',
+293 silly addNameRange     '0.4.7',
+293 silly addNameRange     '0.4.8',
+293 silly addNameRange     '0.4.9',
+293 silly addNameRange     '0.4.10',
+293 silly addNameRange     '0.4.11',
+293 silly addNameRange     '0.4.12',
+293 silly addNameRange     '0.4.13',
+293 silly addNameRange     '0.5.0',
+293 silly addNameRange     '0.5.1',
+293 silly addNameRange     '0.5.2',
+293 silly addNameRange     '0.5.3',
+293 silly addNameRange     '0.5.4',
+293 silly addNameRange     '0.5.5',
+293 silly addNameRange     '0.5.6',
+293 silly addNameRange     '0.5.7',
+293 silly addNameRange     '0.5.8',
+293 silly addNameRange     '0.6.0',
+293 silly addNameRange     '0.6.1',
+293 silly addNameRange     '0.7.0',
+293 silly addNameRange     '0.7.1',
+293 silly addNameRange     '0.7.2',
+293 silly addNameRange     '0.7.3',
+293 silly addNameRange     '0.7.4',
+293 silly addNameRange     '0.7.5',
+293 silly addNameRange     '0.7.6',
+293 silly addNameRange     '0.8.0',
+293 silly addNameRange     '1.0.0',
+293 silly addNameRange     '1.0.1',
+293 silly addNameRange     '1.1.0',
+293 silly addNameRange     '1.1.1',
+293 silly addNameRange     '1.1.2',
+293 silly addNameRange     '1.1.3',
+293 silly addNameRange     '1.2.0',
+293 silly addNameRange     '1.3.0',
+293 silly addNameRange     '1.3.1',
+293 silly addNameRange     '1.4.0',
+293 silly addNameRange     '1.4.1',
+293 silly addNameRange     '2.0.0',
+293 silly addNameRange     '2.1.0' ] ]
+294 silly addNamed ecstatic@1.4.1
+295 verbose addNamed "1.4.1" is a plain semver version for ecstatic
+296 silly mapToRegistry name ecstatic
+297 silly mapToRegistry using default registry
+298 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+299 silly mapToRegistry data Result {
+299 silly mapToRegistry   raw: 'ecstatic',
+299 silly mapToRegistry   scope: null,
+299 silly mapToRegistry   name: 'ecstatic',
+299 silly mapToRegistry   rawSpec: '',
+299 silly mapToRegistry   spec: 'latest',
+299 silly mapToRegistry   type: 'tag' }
+300 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/ecstatic
+301 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/ecstatic/-/ecstatic-1.4.1.tgz not in flight; adding
+302 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/ecstatic/-/ecstatic-1.4.1.tgz',
+302 verbose addRemoteTarball   '32cb7b6fa2e290d58668674d115e8f0c3d567d6a' ]
+303 verbose get https://nqa-nexus.sprinklr.com:5873/colors not expired, no request
+304 silly resolveWithNewModule optimist@0.6.1 checking installable status
+305 silly cache add args [ 'optimist@0.6.x', null ]
+306 verbose cache add spec optimist@0.6.x
+307 silly cache add parsed spec Result {
+307 silly cache add   raw: 'optimist@0.6.x',
+307 silly cache add   scope: null,
+307 silly cache add   name: 'optimist',
+307 silly cache add   rawSpec: '0.6.x',
+307 silly cache add   spec: '>=0.6.0 <0.7.0',
+307 silly cache add   type: 'range' }
+308 silly addNamed optimist@>=0.6.0 <0.7.0
+309 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for optimist
+310 silly addNameRange { name: 'optimist', range: '>=0.6.0 <0.7.0', hasData: false }
+311 silly mapToRegistry name optimist
+312 silly mapToRegistry using default registry
+313 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+314 silly mapToRegistry data Result {
+314 silly mapToRegistry   raw: 'optimist',
+314 silly mapToRegistry   scope: null,
+314 silly mapToRegistry   name: 'optimist',
+314 silly mapToRegistry   rawSpec: '',
+314 silly mapToRegistry   spec: 'latest',
+314 silly mapToRegistry   type: 'tag' }
+315 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/optimist
+316 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/optimist not in flight; fetching
+317 info retry fetch attempt 1 at 07:42:21
+318 info attempt registry request try #1 at 07:42:21
+319 http fetch GET https://nqa-nexus.sprinklr.com:5873/corser/-/corser-2.0.1.tgz
+320 info retry fetch attempt 1 at 07:42:21
+321 info attempt registry request try #1 at 07:42:21
+322 http fetch GET https://nqa-nexus.sprinklr.com:5873/ecstatic/-/ecstatic-1.4.1.tgz
+323 verbose get https://nqa-nexus.sprinklr.com:5873/optimist not expired, no request
+324 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.0 <0.7.0', hasData: true }
+325 silly addNameRange versions [ 'optimist',
+325 silly addNameRange   [ '0.0.1',
+325 silly addNameRange     '0.0.2',
+325 silly addNameRange     '0.0.4',
+325 silly addNameRange     '0.0.5',
+325 silly addNameRange     '0.0.6',
+325 silly addNameRange     '0.0.7',
+325 silly addNameRange     '0.1.0',
+325 silly addNameRange     '0.1.1',
+325 silly addNameRange     '0.1.2',
+325 silly addNameRange     '0.1.3',
+325 silly addNameRange     '0.1.4',
+325 silly addNameRange     '0.1.5',
+325 silly addNameRange     '0.1.6',
+325 silly addNameRange     '0.1.7',
+325 silly addNameRange     '0.1.8',
+325 silly addNameRange     '0.1.9',
+325 silly addNameRange     '0.0.3',
+325 silly addNameRange     '0.2.0',
+325 silly addNameRange     '0.2.1',
+325 silly addNameRange     '0.2.2',
+325 silly addNameRange     '0.2.3',
+325 silly addNameRange     '0.2.4',
+325 silly addNameRange     '0.2.5',
+325 silly addNameRange     '0.2.6',
+325 silly addNameRange     '0.2.7',
+325 silly addNameRange     '0.2.8',
+325 silly addNameRange     '0.3.0',
+325 silly addNameRange     '0.3.1',
+325 silly addNameRange     '0.3.3',
+325 silly addNameRange     '0.3.4',
+325 silly addNameRange     '0.3.5',
+325 silly addNameRange     '0.3.6',
+325 silly addNameRange     '0.3.7',
+325 silly addNameRange     '0.4.0',
+325 silly addNameRange     '0.5.0',
+325 silly addNameRange     '0.5.1',
+325 silly addNameRange     '0.5.2',
+325 silly addNameRange     '0.6.0',
+325 silly addNameRange     '0.6.1' ] ]
+326 silly addNamed optimist@0.6.1
+327 verbose addNamed "0.6.1" is a plain semver version for optimist
+328 silly cache afterAdd colors@1.0.3
+329 verbose afterAdd /Users/eduardohenrique/.npm/colors/1.0.3/package/package.json not in flight; writing
+330 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+331 silly resolveWithNewModule opener@1.4.1 checking installable status
+332 silly cache add args [ 'opener@~1.4.0', null ]
+333 verbose cache add spec opener@~1.4.0
+334 silly cache add parsed spec Result {
+334 silly cache add   raw: 'opener@~1.4.0',
+334 silly cache add   scope: null,
+334 silly cache add   name: 'opener',
+334 silly cache add   rawSpec: '~1.4.0',
+334 silly cache add   spec: '>=1.4.0 <1.5.0',
+334 silly cache add   type: 'range' }
+335 silly addNamed opener@>=1.4.0 <1.5.0
+336 verbose addNamed ">=1.4.0 <1.5.0" is a valid semver range for opener
+337 silly addNameRange { name: 'opener', range: '>=1.4.0 <1.5.0', hasData: false }
+338 silly mapToRegistry name opener
+339 silly mapToRegistry using default registry
+340 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+341 silly mapToRegistry data Result {
+341 silly mapToRegistry   raw: 'opener',
+341 silly mapToRegistry   scope: null,
+341 silly mapToRegistry   name: 'opener',
+341 silly mapToRegistry   rawSpec: '',
+341 silly mapToRegistry   spec: 'latest',
+341 silly mapToRegistry   type: 'tag' }
+342 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/opener
+343 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/opener not in flight; fetching
+344 verbose get https://nqa-nexus.sprinklr.com:5873/opener not expired, no request
+345 silly addNameRange number 2 { name: 'opener', range: '>=1.4.0 <1.5.0', hasData: true }
+346 silly addNameRange versions [ 'opener',
+346 silly addNameRange   [ '1.0.0', '1.0.1', '1.1.0', '1.2.0', '1.3.0', '1.4.0', '1.4.1' ] ]
+347 silly addNamed opener@1.4.1
+348 verbose addNamed "1.4.1" is a plain semver version for opener
+349 silly mapToRegistry name opener
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+352 silly mapToRegistry data Result {
+352 silly mapToRegistry   raw: 'opener',
+352 silly mapToRegistry   scope: null,
+352 silly mapToRegistry   name: 'opener',
+352 silly mapToRegistry   rawSpec: '',
+352 silly mapToRegistry   spec: 'latest',
+352 silly mapToRegistry   type: 'tag' }
+353 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/opener
+354 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/opener/-/opener-1.4.1.tgz not in flight; adding
+355 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/opener/-/opener-1.4.1.tgz',
+355 verbose addRemoteTarball   '897590acd1aed3311b703b58bccb4d43f56f2895' ]
+356 verbose afterAdd /Users/eduardohenrique/.npm/colors/1.0.3/package/package.json written
+357 silly cache afterAdd optimist@0.6.1
+358 verbose afterAdd /Users/eduardohenrique/.npm/optimist/0.6.1/package/package.json not in flight; writing
+359 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+360 info retry fetch attempt 1 at 07:42:21
+361 info attempt registry request try #1 at 07:42:21
+362 http fetch GET https://nqa-nexus.sprinklr.com:5873/opener/-/opener-1.4.1.tgz
+363 verbose afterAdd /Users/eduardohenrique/.npm/optimist/0.6.1/package/package.json written
+364 http 200 https://nqa-nexus.sprinklr.com:5873/union
+365 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+365 verbose headers   'content-type': 'application/json; charset=utf-8',
+365 verbose headers   etag: '"ab4244e0010fb9dcc325205a4798a743"',
+365 verbose headers   vary: 'Accept-Encoding',
+365 verbose headers   'content-encoding': 'gzip',
+365 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+365 verbose headers   date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+365 verbose headers   connection: 'keep-alive',
+365 verbose headers   'transfer-encoding': 'chunked' }
+366 silly get cb [ 200,
+366 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+366 silly get     'content-type': 'application/json; charset=utf-8',
+366 silly get     etag: '"ab4244e0010fb9dcc325205a4798a743"',
+366 silly get     vary: 'Accept-Encoding',
+366 silly get     'content-encoding': 'gzip',
+366 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+366 silly get     date: 'Wed, 31 Aug 2016 10:42:21 GMT',
+366 silly get     connection: 'keep-alive',
+366 silly get     'transfer-encoding': 'chunked' } ]
+367 verbose get saving union to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/union/.cache.json
+368 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+369 silly resolveWithNewModule union@0.4.4 checking installable status
+370 silly cache add args [ 'union@~0.4.3', null ]
+371 verbose cache add spec union@~0.4.3
+372 silly cache add parsed spec Result {
+372 silly cache add   raw: 'union@~0.4.3',
+372 silly cache add   scope: null,
+372 silly cache add   name: 'union',
+372 silly cache add   rawSpec: '~0.4.3',
+372 silly cache add   spec: '>=0.4.3 <0.5.0',
+372 silly cache add   type: 'range' }
+373 silly addNamed union@>=0.4.3 <0.5.0
+374 verbose addNamed ">=0.4.3 <0.5.0" is a valid semver range for union
+375 silly addNameRange { name: 'union', range: '>=0.4.3 <0.5.0', hasData: false }
+376 silly mapToRegistry name union
+377 silly mapToRegistry using default registry
+378 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+379 silly mapToRegistry data Result {
+379 silly mapToRegistry   raw: 'union',
+379 silly mapToRegistry   scope: null,
+379 silly mapToRegistry   name: 'union',
+379 silly mapToRegistry   rawSpec: '',
+379 silly mapToRegistry   spec: 'latest',
+379 silly mapToRegistry   type: 'tag' }
+380 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/union
+381 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/union not in flight; fetching
+382 verbose get https://nqa-nexus.sprinklr.com:5873/union not expired, no request
+383 silly addNameRange number 2 { name: 'union', range: '>=0.4.3 <0.5.0', hasData: true }
+384 silly addNameRange versions [ 'union',
+384 silly addNameRange   [ '0.1.0',
+384 silly addNameRange     '0.1.2',
+384 silly addNameRange     '0.1.3',
+384 silly addNameRange     '0.1.4',
+384 silly addNameRange     '0.1.5',
+384 silly addNameRange     '0.1.6',
+384 silly addNameRange     '0.1.7',
+384 silly addNameRange     '0.1.8',
+384 silly addNameRange     '0.2.0',
+384 silly addNameRange     '0.2.1',
+384 silly addNameRange     '0.3.0',
+384 silly addNameRange     '0.3.2',
+384 silly addNameRange     '0.3.3',
+384 silly addNameRange     '0.3.4',
+384 silly addNameRange     '0.3.5',
+384 silly addNameRange     '0.3.6',
+384 silly addNameRange     '0.3.7',
+384 silly addNameRange     '0.3.8',
+384 silly addNameRange     '0.4.0',
+384 silly addNameRange     '0.4.1',
+384 silly addNameRange     '0.4.2',
+384 silly addNameRange     '0.4.3',
+384 silly addNameRange     '0.4.4' ] ]
+385 silly addNamed union@0.4.4
+386 verbose addNamed "0.4.4" is a plain semver version for union
+387 silly mapToRegistry name union
+388 silly mapToRegistry using default registry
+389 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+390 silly mapToRegistry data Result {
+390 silly mapToRegistry   raw: 'union',
+390 silly mapToRegistry   scope: null,
+390 silly mapToRegistry   name: 'union',
+390 silly mapToRegistry   rawSpec: '',
+390 silly mapToRegistry   spec: 'latest',
+390 silly mapToRegistry   type: 'tag' }
+391 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/union
+392 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/union/-/union-0.4.4.tgz not in flight; adding
+393 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/union/-/union-0.4.4.tgz',
+393 verbose addRemoteTarball   'd73f49321d6ffb721a4c69ff5b0a6c31a98ff3e0' ]
+394 info retry fetch attempt 1 at 07:42:21
+395 info attempt registry request try #1 at 07:42:21
+396 http fetch GET https://nqa-nexus.sprinklr.com:5873/union/-/union-0.4.4.tgz
+397 http fetch 200 https://nqa-nexus.sprinklr.com:5873/portfinder/-/portfinder-0.4.0.tgz
+398 http fetch 200 https://nqa-nexus.sprinklr.com:5873/ecstatic/-/ecstatic-1.4.1.tgz
+399 http fetch 200 https://nqa-nexus.sprinklr.com:5873/corser/-/corser-2.0.1.tgz
+400 http fetch 200 https://nqa-nexus.sprinklr.com:5873/opener/-/opener-1.4.1.tgz
+401 http fetch 200 https://nqa-nexus.sprinklr.com:5873/union/-/union-0.4.4.tgz
+402 silly fetchAndShaCheck shasum a3ffadffafe4fb98e0601a85eda27c27ce84ca1e
+403 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/portfinder/-/portfinder-0.4.0.tgz not in flight; adding
+404 verbose addTmpTarball already have metadata; skipping unpack for portfinder@0.4.0
+405 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+406 silly cache afterAdd portfinder@0.4.0
+407 verbose afterAdd /Users/eduardohenrique/.npm/portfinder/0.4.0/package/package.json not in flight; writing
+408 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+409 verbose afterAdd /Users/eduardohenrique/.npm/portfinder/0.4.0/package/package.json written
+410 silly fetchAndShaCheck shasum 8eda252ecaab5840dcd975ceb90d9370c819ff87
+411 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/corser/-/corser-2.0.1.tgz not in flight; adding
+412 verbose addTmpTarball already have metadata; skipping unpack for corser@2.0.1
+413 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+414 silly cache afterAdd corser@2.0.1
+415 verbose afterAdd /Users/eduardohenrique/.npm/corser/2.0.1/package/package.json not in flight; writing
+416 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+417 verbose afterAdd /Users/eduardohenrique/.npm/corser/2.0.1/package/package.json written
+418 silly fetchAndShaCheck shasum 897590acd1aed3311b703b58bccb4d43f56f2895
+419 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/opener/-/opener-1.4.1.tgz not in flight; adding
+420 verbose addTmpTarball already have metadata; skipping unpack for opener@1.4.1
+421 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+422 silly cache afterAdd opener@1.4.1
+423 verbose afterAdd /Users/eduardohenrique/.npm/opener/1.4.1/package/package.json not in flight; writing
+424 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+425 verbose afterAdd /Users/eduardohenrique/.npm/opener/1.4.1/package/package.json written
+426 silly fetchAndShaCheck shasum d73f49321d6ffb721a4c69ff5b0a6c31a98ff3e0
+427 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/union/-/union-0.4.4.tgz not in flight; adding
+428 verbose addTmpTarball already have metadata; skipping unpack for union@0.4.4
+429 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+430 silly cache afterAdd union@0.4.4
+431 verbose afterAdd /Users/eduardohenrique/.npm/union/0.4.4/package/package.json not in flight; writing
+432 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+433 verbose afterAdd /Users/eduardohenrique/.npm/union/0.4.4/package/package.json written
+434 silly fetchAndShaCheck shasum 32cb7b6fa2e290d58668674d115e8f0c3d567d6a
+435 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/ecstatic/-/ecstatic-1.4.1.tgz not in flight; adding
+436 verbose addTmpTarball already have metadata; skipping unpack for ecstatic@1.4.1
+437 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+438 silly cache afterAdd ecstatic@1.4.1
+439 verbose afterAdd /Users/eduardohenrique/.npm/ecstatic/1.4.1/package/package.json not in flight; writing
+440 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+441 verbose afterAdd /Users/eduardohenrique/.npm/ecstatic/1.4.1/package/package.json written
+442 silly fetchNamedPackageData he
+443 silly mapToRegistry name he
+444 silly mapToRegistry using default registry
+445 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+446 silly mapToRegistry data Result {
+446 silly mapToRegistry   raw: 'he',
+446 silly mapToRegistry   scope: null,
+446 silly mapToRegistry   name: 'he',
+446 silly mapToRegistry   rawSpec: '',
+446 silly mapToRegistry   spec: 'latest',
+446 silly mapToRegistry   type: 'tag' }
+447 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/he
+448 silly fetchNamedPackageData mime
+449 silly mapToRegistry name mime
+450 silly mapToRegistry using default registry
+451 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+452 silly mapToRegistry data Result {
+452 silly mapToRegistry   raw: 'mime',
+452 silly mapToRegistry   scope: null,
+452 silly mapToRegistry   name: 'mime',
+452 silly mapToRegistry   rawSpec: '',
+452 silly mapToRegistry   spec: 'latest',
+452 silly mapToRegistry   type: 'tag' }
+453 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/mime
+454 silly fetchNamedPackageData minimist
+455 silly mapToRegistry name minimist
+456 silly mapToRegistry using default registry
+457 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+458 silly mapToRegistry data Result {
+458 silly mapToRegistry   raw: 'minimist',
+458 silly mapToRegistry   scope: null,
+458 silly mapToRegistry   name: 'minimist',
+458 silly mapToRegistry   rawSpec: '',
+458 silly mapToRegistry   spec: 'latest',
+458 silly mapToRegistry   type: 'tag' }
+459 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/minimist
+460 silly fetchNamedPackageData url-join
+461 silly mapToRegistry name url-join
+462 silly mapToRegistry using default registry
+463 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+464 silly mapToRegistry data Result {
+464 silly mapToRegistry   raw: 'url-join',
+464 silly mapToRegistry   scope: null,
+464 silly mapToRegistry   name: 'url-join',
+464 silly mapToRegistry   rawSpec: '',
+464 silly mapToRegistry   spec: 'latest',
+464 silly mapToRegistry   type: 'tag' }
+465 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/url-join
+466 verbose request uri https://nqa-nexus.sprinklr.com:5873/url-join
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 07:42:22
+469 http request GET https://nqa-nexus.sprinklr.com:5873/url-join
+470 verbose request uri https://nqa-nexus.sprinklr.com:5873/he
+471 verbose request no auth needed
+472 info attempt registry request try #1 at 07:42:22
+473 verbose etag "f05691ccae61cc2f30c603e363ae8f86"
+474 http request GET https://nqa-nexus.sprinklr.com:5873/he
+475 verbose request uri https://nqa-nexus.sprinklr.com:5873/mime
+476 verbose request no auth needed
+477 info attempt registry request try #1 at 07:42:22
+478 verbose etag "634c48b44938ffcf1f96b9a4e513ccf2"
+479 http request GET https://nqa-nexus.sprinklr.com:5873/mime
+480 verbose request uri https://nqa-nexus.sprinklr.com:5873/minimist
+481 verbose request no auth needed
+482 info attempt registry request try #1 at 07:42:22
+483 verbose etag "ce9a531b893258eb7e404a1f76b40edb"
+484 http request GET https://nqa-nexus.sprinklr.com:5873/minimist
+485 http 304 https://nqa-nexus.sprinklr.com:5873/mime
+486 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+486 verbose headers   etag: '"634c48b44938ffcf1f96b9a4e513ccf2"',
+486 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+486 verbose headers   date: 'Wed, 31 Aug 2016 10:42:22 GMT',
+486 verbose headers   connection: 'keep-alive' }
+487 silly get cb [ 304,
+487 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+487 silly get     etag: '"634c48b44938ffcf1f96b9a4e513ccf2"',
+487 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+487 silly get     date: 'Wed, 31 Aug 2016 10:42:22 GMT',
+487 silly get     connection: 'keep-alive' } ]
+488 verbose etag https://nqa-nexus.sprinklr.com:5873/mime from cache
+489 verbose get saving mime to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/mime/.cache.json
+490 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+491 http 304 https://nqa-nexus.sprinklr.com:5873/minimist
+492 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+492 verbose headers   etag: '"ce9a531b893258eb7e404a1f76b40edb"',
+492 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+492 verbose headers   date: 'Wed, 31 Aug 2016 10:42:22 GMT',
+492 verbose headers   connection: 'keep-alive' }
+493 silly get cb [ 304,
+493 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+493 silly get     etag: '"ce9a531b893258eb7e404a1f76b40edb"',
+493 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+493 silly get     date: 'Wed, 31 Aug 2016 10:42:22 GMT',
+493 silly get     connection: 'keep-alive' } ]
+494 verbose etag https://nqa-nexus.sprinklr.com:5873/minimist from cache
+495 verbose get saving minimist to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/minimist/.cache.json
+496 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+497 silly resolveWithNewModule mime@1.3.4 checking installable status
+498 silly cache add args [ 'mime@^1.2.11', null ]
+499 verbose cache add spec mime@^1.2.11
+500 silly cache add parsed spec Result {
+500 silly cache add   raw: 'mime@^1.2.11',
+500 silly cache add   scope: null,
+500 silly cache add   name: 'mime',
+500 silly cache add   rawSpec: '^1.2.11',
+500 silly cache add   spec: '>=1.2.11 <2.0.0',
+500 silly cache add   type: 'range' }
+501 silly addNamed mime@>=1.2.11 <2.0.0
+502 verbose addNamed ">=1.2.11 <2.0.0" is a valid semver range for mime
+503 silly addNameRange { name: 'mime', range: '>=1.2.11 <2.0.0', hasData: false }
+504 silly mapToRegistry name mime
+505 silly mapToRegistry using default registry
+506 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+507 silly mapToRegistry data Result {
+507 silly mapToRegistry   raw: 'mime',
+507 silly mapToRegistry   scope: null,
+507 silly mapToRegistry   name: 'mime',
+507 silly mapToRegistry   rawSpec: '',
+507 silly mapToRegistry   spec: 'latest',
+507 silly mapToRegistry   type: 'tag' }
+508 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/mime
+509 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/mime not in flight; fetching
+510 silly resolveWithNewModule minimist@1.2.0 checking installable status
+511 silly cache add args [ 'minimist@^1.1.0', null ]
+512 verbose cache add spec minimist@^1.1.0
+513 silly cache add parsed spec Result {
+513 silly cache add   raw: 'minimist@^1.1.0',
+513 silly cache add   scope: null,
+513 silly cache add   name: 'minimist',
+513 silly cache add   rawSpec: '^1.1.0',
+513 silly cache add   spec: '>=1.1.0 <2.0.0',
+513 silly cache add   type: 'range' }
+514 silly addNamed minimist@>=1.1.0 <2.0.0
+515 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for minimist
+516 silly addNameRange { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: false }
+517 silly mapToRegistry name minimist
+518 silly mapToRegistry using default registry
+519 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+520 silly mapToRegistry data Result {
+520 silly mapToRegistry   raw: 'minimist',
+520 silly mapToRegistry   scope: null,
+520 silly mapToRegistry   name: 'minimist',
+520 silly mapToRegistry   rawSpec: '',
+520 silly mapToRegistry   spec: 'latest',
+520 silly mapToRegistry   type: 'tag' }
+521 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/minimist
+522 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/minimist not in flight; fetching
+523 verbose get https://nqa-nexus.sprinklr.com:5873/mime not expired, no request
+524 silly addNameRange number 2 { name: 'mime', range: '>=1.2.11 <2.0.0', hasData: true }
+525 silly addNameRange versions [ 'mime',
+525 silly addNameRange   [ '1.0.0',
+525 silly addNameRange     '1.1.0',
+525 silly addNameRange     '1.2.1',
+525 silly addNameRange     '1.2.2',
+525 silly addNameRange     '1.2.3',
+525 silly addNameRange     '1.2.4',
+525 silly addNameRange     '1.2.5',
+525 silly addNameRange     '1.2.6',
+525 silly addNameRange     '1.2.7',
+525 silly addNameRange     '1.2.8',
+525 silly addNameRange     '1.2.9',
+525 silly addNameRange     '1.2.10',
+525 silly addNameRange     '1.2.11',
+525 silly addNameRange     '1.3.0',
+525 silly addNameRange     '1.3.2',
+525 silly addNameRange     '1.3.3',
+525 silly addNameRange     '1.3.4' ] ]
+526 silly addNamed mime@1.3.4
+527 verbose addNamed "1.3.4" is a plain semver version for mime
+528 verbose get https://nqa-nexus.sprinklr.com:5873/minimist not expired, no request
+529 silly addNameRange number 2 { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: true }
+530 silly addNameRange versions [ 'minimist',
+530 silly addNameRange   [ '0.0.0',
+530 silly addNameRange     '0.0.1',
+530 silly addNameRange     '0.0.2',
+530 silly addNameRange     '0.0.3',
+530 silly addNameRange     '0.0.4',
+530 silly addNameRange     '0.0.5',
+530 silly addNameRange     '0.0.6',
+530 silly addNameRange     '0.0.7',
+530 silly addNameRange     '0.0.8',
+530 silly addNameRange     '0.0.9',
+530 silly addNameRange     '0.0.10',
+530 silly addNameRange     '0.1.0',
+530 silly addNameRange     '0.2.0',
+530 silly addNameRange     '1.0.0',
+530 silly addNameRange     '1.1.0',
+530 silly addNameRange     '1.1.1',
+530 silly addNameRange     '1.1.2',
+530 silly addNameRange     '1.1.3',
+530 silly addNameRange     '1.2.0' ] ]
+531 silly addNamed minimist@1.2.0
+532 verbose addNamed "1.2.0" is a plain semver version for minimist
+533 silly cache afterAdd mime@1.3.4
+534 verbose afterAdd /Users/eduardohenrique/.npm/mime/1.3.4/package/package.json not in flight; writing
+535 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+536 silly cache afterAdd minimist@1.2.0
+537 verbose afterAdd /Users/eduardohenrique/.npm/minimist/1.2.0/package/package.json not in flight; writing
+538 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+539 verbose afterAdd /Users/eduardohenrique/.npm/mime/1.3.4/package/package.json written
+540 verbose afterAdd /Users/eduardohenrique/.npm/minimist/1.2.0/package/package.json written
+541 http 200 https://nqa-nexus.sprinklr.com:5873/url-join
+542 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+542 verbose headers   'content-type': 'application/json; charset=utf-8',
+542 verbose headers   etag: '"a289db139ecc4be2dfc90fb9b968ca96"',
+542 verbose headers   vary: 'Accept-Encoding',
+542 verbose headers   'content-encoding': 'gzip',
+542 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+542 verbose headers   date: 'Wed, 31 Aug 2016 10:42:22 GMT',
+542 verbose headers   connection: 'keep-alive',
+542 verbose headers   'transfer-encoding': 'chunked' }
+543 silly get cb [ 200,
+543 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+543 silly get     'content-type': 'application/json; charset=utf-8',
+543 silly get     etag: '"a289db139ecc4be2dfc90fb9b968ca96"',
+543 silly get     vary: 'Accept-Encoding',
+543 silly get     'content-encoding': 'gzip',
+543 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+543 silly get     date: 'Wed, 31 Aug 2016 10:42:22 GMT',
+543 silly get     connection: 'keep-alive',
+543 silly get     'transfer-encoding': 'chunked' } ]
+544 verbose get saving url-join to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/url-join/.cache.json
+545 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+546 silly resolveWithNewModule url-join@1.1.0 checking installable status
+547 silly cache add args [ 'url-join@^1.0.0', null ]
+548 verbose cache add spec url-join@^1.0.0
+549 silly cache add parsed spec Result {
+549 silly cache add   raw: 'url-join@^1.0.0',
+549 silly cache add   scope: null,
+549 silly cache add   name: 'url-join',
+549 silly cache add   rawSpec: '^1.0.0',
+549 silly cache add   spec: '>=1.0.0 <2.0.0',
+549 silly cache add   type: 'range' }
+550 silly addNamed url-join@>=1.0.0 <2.0.0
+551 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for url-join
+552 silly addNameRange { name: 'url-join', range: '>=1.0.0 <2.0.0', hasData: false }
+553 silly mapToRegistry name url-join
+554 silly mapToRegistry using default registry
+555 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+556 silly mapToRegistry data Result {
+556 silly mapToRegistry   raw: 'url-join',
+556 silly mapToRegistry   scope: null,
+556 silly mapToRegistry   name: 'url-join',
+556 silly mapToRegistry   rawSpec: '',
+556 silly mapToRegistry   spec: 'latest',
+556 silly mapToRegistry   type: 'tag' }
+557 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/url-join
+558 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/url-join not in flight; fetching
+559 verbose get https://nqa-nexus.sprinklr.com:5873/url-join not expired, no request
+560 silly addNameRange number 2 { name: 'url-join', range: '>=1.0.0 <2.0.0', hasData: true }
+561 silly addNameRange versions [ 'url-join', [ '0.0.1', '1.0.0', '1.1.0' ] ]
+562 silly addNamed url-join@1.1.0
+563 verbose addNamed "1.1.0" is a plain semver version for url-join
+564 silly mapToRegistry name url-join
+565 silly mapToRegistry using default registry
+566 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+567 silly mapToRegistry data Result {
+567 silly mapToRegistry   raw: 'url-join',
+567 silly mapToRegistry   scope: null,
+567 silly mapToRegistry   name: 'url-join',
+567 silly mapToRegistry   rawSpec: '',
+567 silly mapToRegistry   spec: 'latest',
+567 silly mapToRegistry   type: 'tag' }
+568 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/url-join
+569 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/url-join/-/url-join-1.1.0.tgz not in flight; adding
+570 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/url-join/-/url-join-1.1.0.tgz',
+570 verbose addRemoteTarball   '741c6c2f4596c4830d6718460920d0c92202dc78' ]
+571 info retry fetch attempt 1 at 07:42:23
+572 info attempt registry request try #1 at 07:42:23
+573 http fetch GET https://nqa-nexus.sprinklr.com:5873/url-join/-/url-join-1.1.0.tgz
+574 http 200 https://nqa-nexus.sprinklr.com:5873/he
+575 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+575 verbose headers   'content-type': 'application/json; charset=utf-8',
+575 verbose headers   etag: '"dc826ad3fbd1c9c5334a9a1f87e2cdef"',
+575 verbose headers   vary: 'Accept-Encoding',
+575 verbose headers   'content-encoding': 'gzip',
+575 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+575 verbose headers   date: 'Wed, 31 Aug 2016 10:42:22 GMT',
+575 verbose headers   connection: 'keep-alive',
+575 verbose headers   'transfer-encoding': 'chunked' }
+576 silly get cb [ 200,
+576 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+576 silly get     'content-type': 'application/json; charset=utf-8',
+576 silly get     etag: '"dc826ad3fbd1c9c5334a9a1f87e2cdef"',
+576 silly get     vary: 'Accept-Encoding',
+576 silly get     'content-encoding': 'gzip',
+576 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+576 silly get     date: 'Wed, 31 Aug 2016 10:42:22 GMT',
+576 silly get     connection: 'keep-alive',
+576 silly get     'transfer-encoding': 'chunked' } ]
+577 verbose get saving he to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/he/.cache.json
+578 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+579 silly resolveWithNewModule he@0.5.0 checking installable status
+580 silly cache add args [ 'he@^0.5.0', null ]
+581 verbose cache add spec he@^0.5.0
+582 silly cache add parsed spec Result {
+582 silly cache add   raw: 'he@^0.5.0',
+582 silly cache add   scope: null,
+582 silly cache add   name: 'he',
+582 silly cache add   rawSpec: '^0.5.0',
+582 silly cache add   spec: '>=0.5.0 <0.6.0',
+582 silly cache add   type: 'range' }
+583 silly addNamed he@>=0.5.0 <0.6.0
+584 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for he
+585 silly addNameRange { name: 'he', range: '>=0.5.0 <0.6.0', hasData: false }
+586 silly mapToRegistry name he
+587 silly mapToRegistry using default registry
+588 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+589 silly mapToRegistry data Result {
+589 silly mapToRegistry   raw: 'he',
+589 silly mapToRegistry   scope: null,
+589 silly mapToRegistry   name: 'he',
+589 silly mapToRegistry   rawSpec: '',
+589 silly mapToRegistry   spec: 'latest',
+589 silly mapToRegistry   type: 'tag' }
+590 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/he
+591 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/he not in flight; fetching
+592 verbose get https://nqa-nexus.sprinklr.com:5873/he not expired, no request
+593 silly addNameRange number 2 { name: 'he', range: '>=0.5.0 <0.6.0', hasData: true }
+594 silly addNameRange versions [ 'he',
+594 silly addNameRange   [ '0.1.0',
+594 silly addNameRange     '0.1.1',
+594 silly addNameRange     '0.1.2',
+594 silly addNameRange     '0.1.3',
+594 silly addNameRange     '0.1.4',
+594 silly addNameRange     '0.1.5',
+594 silly addNameRange     '0.1.6',
+594 silly addNameRange     '0.1.7',
+594 silly addNameRange     '0.1.8',
+594 silly addNameRange     '0.1.9',
+594 silly addNameRange     '0.1.10',
+594 silly addNameRange     '0.2.0',
+594 silly addNameRange     '0.2.1',
+594 silly addNameRange     '0.3.0',
+594 silly addNameRange     '0.3.1',
+594 silly addNameRange     '0.3.2',
+594 silly addNameRange     '0.3.3',
+594 silly addNameRange     '0.3.4',
+594 silly addNameRange     '0.3.5',
+594 silly addNameRange     '0.3.6',
+594 silly addNameRange     '0.4.0',
+594 silly addNameRange     '0.4.1',
+594 silly addNameRange     '0.5.0',
+594 silly addNameRange     '1.0.0',
+594 silly addNameRange     '1.1.0' ] ]
+595 silly addNamed he@0.5.0
+596 verbose addNamed "0.5.0" is a plain semver version for he
+597 silly mapToRegistry name he
+598 silly mapToRegistry using default registry
+599 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+600 silly mapToRegistry data Result {
+600 silly mapToRegistry   raw: 'he',
+600 silly mapToRegistry   scope: null,
+600 silly mapToRegistry   name: 'he',
+600 silly mapToRegistry   rawSpec: '',
+600 silly mapToRegistry   spec: 'latest',
+600 silly mapToRegistry   type: 'tag' }
+601 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/he
+602 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/he/-/he-0.5.0.tgz not in flight; adding
+603 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/he/-/he-0.5.0.tgz',
+603 verbose addRemoteTarball   '2c05ffaef90b68e860f3fd2b54ef580989277ee2' ]
+604 info retry fetch attempt 1 at 07:42:23
+605 info attempt registry request try #1 at 07:42:23
+606 http fetch GET https://nqa-nexus.sprinklr.com:5873/he/-/he-0.5.0.tgz
+607 http fetch 200 https://nqa-nexus.sprinklr.com:5873/url-join/-/url-join-1.1.0.tgz
+608 http fetch 200 https://nqa-nexus.sprinklr.com:5873/he/-/he-0.5.0.tgz
+609 silly fetchAndShaCheck shasum 741c6c2f4596c4830d6718460920d0c92202dc78
+610 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/url-join/-/url-join-1.1.0.tgz not in flight; adding
+611 verbose addTmpTarball already have metadata; skipping unpack for url-join@1.1.0
+612 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+613 silly cache afterAdd url-join@1.1.0
+614 verbose afterAdd /Users/eduardohenrique/.npm/url-join/1.1.0/package/package.json not in flight; writing
+615 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+616 verbose afterAdd /Users/eduardohenrique/.npm/url-join/1.1.0/package/package.json written
+617 silly fetchAndShaCheck shasum 2c05ffaef90b68e860f3fd2b54ef580989277ee2
+618 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/he/-/he-0.5.0.tgz not in flight; adding
+619 verbose addTmpTarball already have metadata; skipping unpack for he@0.5.0
+620 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+621 silly cache afterAdd he@0.5.0
+622 verbose afterAdd /Users/eduardohenrique/.npm/he/0.5.0/package/package.json not in flight; writing
+623 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+624 verbose afterAdd /Users/eduardohenrique/.npm/he/0.5.0/package/package.json written
+625 silly fetchNamedPackageData eventemitter3
+626 silly mapToRegistry name eventemitter3
+627 silly mapToRegistry using default registry
+628 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+629 silly mapToRegistry data Result {
+629 silly mapToRegistry   raw: 'eventemitter3',
+629 silly mapToRegistry   scope: null,
+629 silly mapToRegistry   name: 'eventemitter3',
+629 silly mapToRegistry   rawSpec: '',
+629 silly mapToRegistry   spec: 'latest',
+629 silly mapToRegistry   type: 'tag' }
+630 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/eventemitter3
+631 silly fetchNamedPackageData requires-port
+632 silly mapToRegistry name requires-port
+633 silly mapToRegistry using default registry
+634 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+635 silly mapToRegistry data Result {
+635 silly mapToRegistry   raw: 'requires-port',
+635 silly mapToRegistry   scope: null,
+635 silly mapToRegistry   name: 'requires-port',
+635 silly mapToRegistry   rawSpec: '',
+635 silly mapToRegistry   spec: 'latest',
+635 silly mapToRegistry   type: 'tag' }
+636 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/requires-port
+637 verbose request uri https://nqa-nexus.sprinklr.com:5873/requires-port
+638 verbose request no auth needed
+639 info attempt registry request try #1 at 07:42:24
+640 verbose etag "7074754ce0a561de98400a4f95e69a37"
+641 http request GET https://nqa-nexus.sprinklr.com:5873/requires-port
+642 verbose request uri https://nqa-nexus.sprinklr.com:5873/eventemitter3
+643 verbose request no auth needed
+644 info attempt registry request try #1 at 07:42:24
+645 verbose etag "3ece696e8f31f181b71b28764a61d66c"
+646 http request GET https://nqa-nexus.sprinklr.com:5873/eventemitter3
+647 http 304 https://nqa-nexus.sprinklr.com:5873/requires-port
+648 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+648 verbose headers   etag: '"7074754ce0a561de98400a4f95e69a37"',
+648 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+648 verbose headers   date: 'Wed, 31 Aug 2016 10:42:24 GMT',
+648 verbose headers   connection: 'keep-alive' }
+649 silly get cb [ 304,
+649 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+649 silly get     etag: '"7074754ce0a561de98400a4f95e69a37"',
+649 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+649 silly get     date: 'Wed, 31 Aug 2016 10:42:24 GMT',
+649 silly get     connection: 'keep-alive' } ]
+650 verbose etag https://nqa-nexus.sprinklr.com:5873/requires-port from cache
+651 verbose get saving requires-port to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/requires-port/.cache.json
+652 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+653 http 304 https://nqa-nexus.sprinklr.com:5873/eventemitter3
+654 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+654 verbose headers   etag: '"3ece696e8f31f181b71b28764a61d66c"',
+654 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+654 verbose headers   date: 'Wed, 31 Aug 2016 10:42:24 GMT',
+654 verbose headers   connection: 'keep-alive' }
+655 silly get cb [ 304,
+655 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+655 silly get     etag: '"3ece696e8f31f181b71b28764a61d66c"',
+655 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+655 silly get     date: 'Wed, 31 Aug 2016 10:42:24 GMT',
+655 silly get     connection: 'keep-alive' } ]
+656 verbose etag https://nqa-nexus.sprinklr.com:5873/eventemitter3 from cache
+657 verbose get saving eventemitter3 to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/eventemitter3/.cache.json
+658 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+659 silly resolveWithNewModule requires-port@1.0.0 checking installable status
+660 silly cache add args [ 'requires-port@1.x.x', null ]
+661 verbose cache add spec requires-port@1.x.x
+662 silly cache add parsed spec Result {
+662 silly cache add   raw: 'requires-port@1.x.x',
+662 silly cache add   scope: null,
+662 silly cache add   name: 'requires-port',
+662 silly cache add   rawSpec: '1.x.x',
+662 silly cache add   spec: '>=1.0.0 <2.0.0',
+662 silly cache add   type: 'range' }
+663 silly addNamed requires-port@>=1.0.0 <2.0.0
+664 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for requires-port
+665 silly addNameRange { name: 'requires-port',
+665 silly addNameRange   range: '>=1.0.0 <2.0.0',
+665 silly addNameRange   hasData: false }
+666 silly mapToRegistry name requires-port
+667 silly mapToRegistry using default registry
+668 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+669 silly mapToRegistry data Result {
+669 silly mapToRegistry   raw: 'requires-port',
+669 silly mapToRegistry   scope: null,
+669 silly mapToRegistry   name: 'requires-port',
+669 silly mapToRegistry   rawSpec: '',
+669 silly mapToRegistry   spec: 'latest',
+669 silly mapToRegistry   type: 'tag' }
+670 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/requires-port
+671 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/requires-port not in flight; fetching
+672 silly resolveWithNewModule eventemitter3@1.2.0 checking installable status
+673 silly cache add args [ 'eventemitter3@1.x.x', null ]
+674 verbose cache add spec eventemitter3@1.x.x
+675 silly cache add parsed spec Result {
+675 silly cache add   raw: 'eventemitter3@1.x.x',
+675 silly cache add   scope: null,
+675 silly cache add   name: 'eventemitter3',
+675 silly cache add   rawSpec: '1.x.x',
+675 silly cache add   spec: '>=1.0.0 <2.0.0',
+675 silly cache add   type: 'range' }
+676 silly addNamed eventemitter3@>=1.0.0 <2.0.0
+677 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for eventemitter3
+678 silly addNameRange { name: 'eventemitter3',
+678 silly addNameRange   range: '>=1.0.0 <2.0.0',
+678 silly addNameRange   hasData: false }
+679 silly mapToRegistry name eventemitter3
+680 silly mapToRegistry using default registry
+681 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+682 silly mapToRegistry data Result {
+682 silly mapToRegistry   raw: 'eventemitter3',
+682 silly mapToRegistry   scope: null,
+682 silly mapToRegistry   name: 'eventemitter3',
+682 silly mapToRegistry   rawSpec: '',
+682 silly mapToRegistry   spec: 'latest',
+682 silly mapToRegistry   type: 'tag' }
+683 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/eventemitter3
+684 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/eventemitter3 not in flight; fetching
+685 verbose get https://nqa-nexus.sprinklr.com:5873/requires-port not expired, no request
+686 silly addNameRange number 2 { name: 'requires-port', range: '>=1.0.0 <2.0.0', hasData: true }
+687 silly addNameRange versions [ 'requires-port', [ '0.0.0', '0.0.1', '1.0.0' ] ]
+688 silly addNamed requires-port@1.0.0
+689 verbose addNamed "1.0.0" is a plain semver version for requires-port
+690 verbose get https://nqa-nexus.sprinklr.com:5873/eventemitter3 not expired, no request
+691 silly addNameRange number 2 { name: 'eventemitter3', range: '>=1.0.0 <2.0.0', hasData: true }
+692 silly addNameRange versions [ 'eventemitter3',
+692 silly addNameRange   [ '0.0.0',
+692 silly addNameRange     '0.0.1',
+692 silly addNameRange     '0.1.0',
+692 silly addNameRange     '0.1.1',
+692 silly addNameRange     '0.1.2',
+692 silly addNameRange     '0.1.3',
+692 silly addNameRange     '0.1.4',
+692 silly addNameRange     '0.1.5',
+692 silly addNameRange     '0.1.6',
+692 silly addNameRange     '1.0.0',
+692 silly addNameRange     '1.0.1',
+692 silly addNameRange     '1.0.2',
+692 silly addNameRange     '1.0.3',
+692 silly addNameRange     '1.1.0',
+692 silly addNameRange     '1.1.1',
+692 silly addNameRange     '1.2.0' ] ]
+693 silly addNamed eventemitter3@1.2.0
+694 verbose addNamed "1.2.0" is a plain semver version for eventemitter3
+695 silly cache afterAdd eventemitter3@1.2.0
+696 verbose afterAdd /Users/eduardohenrique/.npm/eventemitter3/1.2.0/package/package.json not in flight; writing
+697 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+698 silly cache afterAdd requires-port@1.0.0
+699 verbose afterAdd /Users/eduardohenrique/.npm/requires-port/1.0.0/package/package.json not in flight; writing
+700 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+701 verbose afterAdd /Users/eduardohenrique/.npm/eventemitter3/1.2.0/package/package.json written
+702 verbose afterAdd /Users/eduardohenrique/.npm/requires-port/1.0.0/package/package.json written
+703 silly fetchNamedPackageData wordwrap
+704 silly mapToRegistry name wordwrap
+705 silly mapToRegistry using default registry
+706 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+707 silly mapToRegistry data Result {
+707 silly mapToRegistry   raw: 'wordwrap',
+707 silly mapToRegistry   scope: null,
+707 silly mapToRegistry   name: 'wordwrap',
+707 silly mapToRegistry   rawSpec: '',
+707 silly mapToRegistry   spec: 'latest',
+707 silly mapToRegistry   type: 'tag' }
+708 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/wordwrap
+709 silly fetchNamedPackageData minimist
+710 silly mapToRegistry name minimist
+711 silly mapToRegistry using default registry
+712 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+713 silly mapToRegistry data Result {
+713 silly mapToRegistry   raw: 'minimist',
+713 silly mapToRegistry   scope: null,
+713 silly mapToRegistry   name: 'minimist',
+713 silly mapToRegistry   rawSpec: '',
+713 silly mapToRegistry   spec: 'latest',
+713 silly mapToRegistry   type: 'tag' }
+714 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/minimist
+715 silly resolveWithNewModule minimist@0.0.10 checking installable status
+716 silly cache add args [ 'minimist@~0.0.1', null ]
+717 verbose cache add spec minimist@~0.0.1
+718 silly cache add parsed spec Result {
+718 silly cache add   raw: 'minimist@~0.0.1',
+718 silly cache add   scope: null,
+718 silly cache add   name: 'minimist',
+718 silly cache add   rawSpec: '~0.0.1',
+718 silly cache add   spec: '>=0.0.1 <0.1.0',
+718 silly cache add   type: 'range' }
+719 silly addNamed minimist@>=0.0.1 <0.1.0
+720 verbose addNamed ">=0.0.1 <0.1.0" is a valid semver range for minimist
+721 silly addNameRange { name: 'minimist', range: '>=0.0.1 <0.1.0', hasData: false }
+722 silly mapToRegistry name minimist
+723 silly mapToRegistry using default registry
+724 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+725 silly mapToRegistry data Result {
+725 silly mapToRegistry   raw: 'minimist',
+725 silly mapToRegistry   scope: null,
+725 silly mapToRegistry   name: 'minimist',
+725 silly mapToRegistry   rawSpec: '',
+725 silly mapToRegistry   spec: 'latest',
+725 silly mapToRegistry   type: 'tag' }
+726 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/minimist
+727 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/minimist not in flight; fetching
+728 verbose get https://nqa-nexus.sprinklr.com:5873/minimist not expired, no request
+729 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1 <0.1.0', hasData: true }
+730 silly addNameRange versions [ 'minimist',
+730 silly addNameRange   [ '0.0.0',
+730 silly addNameRange     '0.0.1',
+730 silly addNameRange     '0.0.2',
+730 silly addNameRange     '0.0.3',
+730 silly addNameRange     '0.0.4',
+730 silly addNameRange     '0.0.5',
+730 silly addNameRange     '0.0.6',
+730 silly addNameRange     '0.0.7',
+730 silly addNameRange     '0.0.8',
+730 silly addNameRange     '0.0.9',
+730 silly addNameRange     '0.0.10',
+730 silly addNameRange     '0.1.0',
+730 silly addNameRange     '0.2.0',
+730 silly addNameRange     '1.0.0',
+730 silly addNameRange     '1.1.0',
+730 silly addNameRange     '1.1.1',
+730 silly addNameRange     '1.1.2',
+730 silly addNameRange     '1.1.3',
+730 silly addNameRange     '1.2.0' ] ]
+731 silly addNamed minimist@0.0.10
+732 verbose addNamed "0.0.10" is a plain semver version for minimist
+733 verbose request uri https://nqa-nexus.sprinklr.com:5873/wordwrap
+734 verbose request no auth needed
+735 info attempt registry request try #1 at 07:42:24
+736 verbose etag "54004f16d3ddaac60f68b6ad488e63b0"
+737 http request GET https://nqa-nexus.sprinklr.com:5873/wordwrap
+738 silly cache afterAdd minimist@0.0.10
+739 verbose afterAdd /Users/eduardohenrique/.npm/minimist/0.0.10/package/package.json not in flight; writing
+740 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+741 verbose afterAdd /Users/eduardohenrique/.npm/minimist/0.0.10/package/package.json written
+742 http 200 https://nqa-nexus.sprinklr.com:5873/wordwrap
+743 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+743 verbose headers   'content-type': 'application/json; charset=utf-8',
+743 verbose headers   etag: '"6040be84d7ddd4a21296db750c2902b9"',
+743 verbose headers   vary: 'Accept-Encoding',
+743 verbose headers   'content-encoding': 'gzip',
+743 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+743 verbose headers   date: 'Wed, 31 Aug 2016 10:42:24 GMT',
+743 verbose headers   connection: 'keep-alive',
+743 verbose headers   'transfer-encoding': 'chunked' }
+744 silly get cb [ 200,
+744 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+744 silly get     'content-type': 'application/json; charset=utf-8',
+744 silly get     etag: '"6040be84d7ddd4a21296db750c2902b9"',
+744 silly get     vary: 'Accept-Encoding',
+744 silly get     'content-encoding': 'gzip',
+744 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+744 silly get     date: 'Wed, 31 Aug 2016 10:42:24 GMT',
+744 silly get     connection: 'keep-alive',
+744 silly get     'transfer-encoding': 'chunked' } ]
+745 verbose get saving wordwrap to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/wordwrap/.cache.json
+746 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+747 silly resolveWithNewModule wordwrap@0.0.3 checking installable status
+748 silly cache add args [ 'wordwrap@~0.0.2', null ]
+749 verbose cache add spec wordwrap@~0.0.2
+750 silly cache add parsed spec Result {
+750 silly cache add   raw: 'wordwrap@~0.0.2',
+750 silly cache add   scope: null,
+750 silly cache add   name: 'wordwrap',
+750 silly cache add   rawSpec: '~0.0.2',
+750 silly cache add   spec: '>=0.0.2 <0.1.0',
+750 silly cache add   type: 'range' }
+751 silly addNamed wordwrap@>=0.0.2 <0.1.0
+752 verbose addNamed ">=0.0.2 <0.1.0" is a valid semver range for wordwrap
+753 silly addNameRange { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: false }
+754 silly mapToRegistry name wordwrap
+755 silly mapToRegistry using default registry
+756 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+757 silly mapToRegistry data Result {
+757 silly mapToRegistry   raw: 'wordwrap',
+757 silly mapToRegistry   scope: null,
+757 silly mapToRegistry   name: 'wordwrap',
+757 silly mapToRegistry   rawSpec: '',
+757 silly mapToRegistry   spec: 'latest',
+757 silly mapToRegistry   type: 'tag' }
+758 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/wordwrap
+759 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/wordwrap not in flight; fetching
+760 verbose get https://nqa-nexus.sprinklr.com:5873/wordwrap not expired, no request
+761 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: true }
+762 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2', '0.0.3', '1.0.0' ] ]
+763 silly addNamed wordwrap@0.0.3
+764 verbose addNamed "0.0.3" is a plain semver version for wordwrap
+765 silly cache afterAdd wordwrap@0.0.3
+766 verbose afterAdd /Users/eduardohenrique/.npm/wordwrap/0.0.3/package/package.json not in flight; writing
+767 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+768 verbose afterAdd /Users/eduardohenrique/.npm/wordwrap/0.0.3/package/package.json written
+769 silly fetchNamedPackageData async
+770 silly mapToRegistry name async
+771 silly mapToRegistry using default registry
+772 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+773 silly mapToRegistry data Result {
+773 silly mapToRegistry   raw: 'async',
+773 silly mapToRegistry   scope: null,
+773 silly mapToRegistry   name: 'async',
+773 silly mapToRegistry   rawSpec: '',
+773 silly mapToRegistry   spec: 'latest',
+773 silly mapToRegistry   type: 'tag' }
+774 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/async
+775 silly fetchNamedPackageData mkdirp
+776 silly mapToRegistry name mkdirp
+777 silly mapToRegistry using default registry
+778 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+779 silly mapToRegistry data Result {
+779 silly mapToRegistry   raw: 'mkdirp',
+779 silly mapToRegistry   scope: null,
+779 silly mapToRegistry   name: 'mkdirp',
+779 silly mapToRegistry   rawSpec: '',
+779 silly mapToRegistry   spec: 'latest',
+779 silly mapToRegistry   type: 'tag' }
+780 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/mkdirp
+781 verbose request uri https://nqa-nexus.sprinklr.com:5873/mkdirp
+782 verbose request no auth needed
+783 info attempt registry request try #1 at 07:42:25
+784 verbose etag "e7b2032d5b47e71bb9aedca4aa85e089"
+785 http request GET https://nqa-nexus.sprinklr.com:5873/mkdirp
+786 verbose request uri https://nqa-nexus.sprinklr.com:5873/async
+787 verbose request no auth needed
+788 info attempt registry request try #1 at 07:42:25
+789 verbose etag "4b61a4c504da65116cf72d904a702b24"
+790 http request GET https://nqa-nexus.sprinklr.com:5873/async
+791 http 304 https://nqa-nexus.sprinklr.com:5873/mkdirp
+792 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+792 verbose headers   etag: '"e7b2032d5b47e71bb9aedca4aa85e089"',
+792 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+792 verbose headers   date: 'Wed, 31 Aug 2016 10:42:25 GMT',
+792 verbose headers   connection: 'keep-alive' }
+793 silly get cb [ 304,
+793 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+793 silly get     etag: '"e7b2032d5b47e71bb9aedca4aa85e089"',
+793 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+793 silly get     date: 'Wed, 31 Aug 2016 10:42:25 GMT',
+793 silly get     connection: 'keep-alive' } ]
+794 verbose etag https://nqa-nexus.sprinklr.com:5873/mkdirp from cache
+795 verbose get saving mkdirp to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/mkdirp/.cache.json
+796 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+797 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+798 silly cache add args [ 'mkdirp@0.5.x', null ]
+799 verbose cache add spec mkdirp@0.5.x
+800 silly cache add parsed spec Result {
+800 silly cache add   raw: 'mkdirp@0.5.x',
+800 silly cache add   scope: null,
+800 silly cache add   name: 'mkdirp',
+800 silly cache add   rawSpec: '0.5.x',
+800 silly cache add   spec: '>=0.5.0 <0.6.0',
+800 silly cache add   type: 'range' }
+801 silly addNamed mkdirp@>=0.5.0 <0.6.0
+802 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for mkdirp
+803 silly addNameRange { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: false }
+804 silly mapToRegistry name mkdirp
+805 silly mapToRegistry using default registry
+806 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+807 silly mapToRegistry data Result {
+807 silly mapToRegistry   raw: 'mkdirp',
+807 silly mapToRegistry   scope: null,
+807 silly mapToRegistry   name: 'mkdirp',
+807 silly mapToRegistry   rawSpec: '',
+807 silly mapToRegistry   spec: 'latest',
+807 silly mapToRegistry   type: 'tag' }
+808 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/mkdirp
+809 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/mkdirp not in flight; fetching
+810 http 304 https://nqa-nexus.sprinklr.com:5873/async
+811 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+811 verbose headers   etag: '"4b61a4c504da65116cf72d904a702b24"',
+811 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+811 verbose headers   date: 'Wed, 31 Aug 2016 10:42:25 GMT',
+811 verbose headers   connection: 'keep-alive' }
+812 silly get cb [ 304,
+812 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+812 silly get     etag: '"4b61a4c504da65116cf72d904a702b24"',
+812 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+812 silly get     date: 'Wed, 31 Aug 2016 10:42:25 GMT',
+812 silly get     connection: 'keep-alive' } ]
+813 verbose etag https://nqa-nexus.sprinklr.com:5873/async from cache
+814 verbose get saving async to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/async/.cache.json
+815 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+816 verbose get https://nqa-nexus.sprinklr.com:5873/mkdirp not expired, no request
+817 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: true }
+818 silly addNameRange versions [ 'mkdirp',
+818 silly addNameRange   [ '0.0.1',
+818 silly addNameRange     '0.0.2',
+818 silly addNameRange     '0.0.3',
+818 silly addNameRange     '0.0.4',
+818 silly addNameRange     '0.0.5',
+818 silly addNameRange     '0.0.6',
+818 silly addNameRange     '0.0.7',
+818 silly addNameRange     '0.1.0',
+818 silly addNameRange     '0.2.0',
+818 silly addNameRange     '0.2.1',
+818 silly addNameRange     '0.2.2',
+818 silly addNameRange     '0.3.0',
+818 silly addNameRange     '0.3.1',
+818 silly addNameRange     '0.3.2',
+818 silly addNameRange     '0.3.3',
+818 silly addNameRange     '0.3.4',
+818 silly addNameRange     '0.3.5',
+818 silly addNameRange     '0.4.0',
+818 silly addNameRange     '0.4.1',
+818 silly addNameRange     '0.4.2',
+818 silly addNameRange     '0.5.0',
+818 silly addNameRange     '0.5.1' ] ]
+819 silly addNamed mkdirp@0.5.1
+820 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+821 silly resolveWithNewModule async@0.9.0 checking installable status
+822 silly cache add args [ 'async@0.9.0', null ]
+823 verbose cache add spec async@0.9.0
+824 silly cache add parsed spec Result {
+824 silly cache add   raw: 'async@0.9.0',
+824 silly cache add   scope: null,
+824 silly cache add   name: 'async',
+824 silly cache add   rawSpec: '0.9.0',
+824 silly cache add   spec: '0.9.0',
+824 silly cache add   type: 'version' }
+825 silly addNamed async@0.9.0
+826 verbose addNamed "0.9.0" is a plain semver version for async
+827 silly mapToRegistry name async
+828 silly mapToRegistry using default registry
+829 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+830 silly mapToRegistry data Result {
+830 silly mapToRegistry   raw: 'async',
+830 silly mapToRegistry   scope: null,
+830 silly mapToRegistry   name: 'async',
+830 silly mapToRegistry   rawSpec: '',
+830 silly mapToRegistry   spec: 'latest',
+830 silly mapToRegistry   type: 'tag' }
+831 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/async
+832 verbose addNameVersion registry:https://nqa-nexus.sprinklr.com:5873/async not in flight; fetching
+833 silly cache afterAdd mkdirp@0.5.1
+834 verbose afterAdd /Users/eduardohenrique/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+835 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+836 verbose get https://nqa-nexus.sprinklr.com:5873/async not expired, no request
+837 silly mapToRegistry name async
+838 silly mapToRegistry using default registry
+839 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+840 silly mapToRegistry data Result {
+840 silly mapToRegistry   raw: 'async',
+840 silly mapToRegistry   scope: null,
+840 silly mapToRegistry   name: 'async',
+840 silly mapToRegistry   rawSpec: '',
+840 silly mapToRegistry   spec: 'latest',
+840 silly mapToRegistry   type: 'tag' }
+841 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/async
+842 verbose addRemoteTarball https://nqa-nexus.sprinklr.com:5873/async/-/async-0.9.0.tgz not in flight; adding
+843 verbose addRemoteTarball [ 'https://nqa-nexus.sprinklr.com:5873/async/-/async-0.9.0.tgz',
+843 verbose addRemoteTarball   'ac3613b1da9bed1b47510bb4651b8931e47146c7' ]
+844 info retry fetch attempt 1 at 07:42:25
+845 info attempt registry request try #1 at 07:42:25
+846 http fetch GET https://nqa-nexus.sprinklr.com:5873/async/-/async-0.9.0.tgz
+847 verbose afterAdd /Users/eduardohenrique/.npm/mkdirp/0.5.1/package/package.json written
+848 http fetch 200 https://nqa-nexus.sprinklr.com:5873/async/-/async-0.9.0.tgz
+849 silly fetchAndShaCheck shasum ac3613b1da9bed1b47510bb4651b8931e47146c7
+850 verbose addTmpTarball /var/folders/gm/crjptw2d229_1nk1lwdgs5900000gp/T/npm-4189-19a3b19b/nqa-nexus.sprinklr.com_5873/async/-/async-0.9.0.tgz not in flight; adding
+851 verbose addTmpTarball already have metadata; skipping unpack for async@0.9.0
+852 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+853 silly cache afterAdd async@0.9.0
+854 verbose afterAdd /Users/eduardohenrique/.npm/async/0.9.0/package/package.json not in flight; writing
+855 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+856 verbose afterAdd /Users/eduardohenrique/.npm/async/0.9.0/package/package.json written
+857 silly fetchNamedPackageData minimist
+858 silly mapToRegistry name minimist
+859 silly mapToRegistry using default registry
+860 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+861 silly mapToRegistry data Result {
+861 silly mapToRegistry   raw: 'minimist',
+861 silly mapToRegistry   scope: null,
+861 silly mapToRegistry   name: 'minimist',
+861 silly mapToRegistry   rawSpec: '',
+861 silly mapToRegistry   spec: 'latest',
+861 silly mapToRegistry   type: 'tag' }
+862 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/minimist
+863 silly resolveWithNewModule minimist@0.0.8 checking installable status
+864 silly cache add args [ 'minimist@0.0.8', null ]
+865 verbose cache add spec minimist@0.0.8
+866 silly cache add parsed spec Result {
+866 silly cache add   raw: 'minimist@0.0.8',
+866 silly cache add   scope: null,
+866 silly cache add   name: 'minimist',
+866 silly cache add   rawSpec: '0.0.8',
+866 silly cache add   spec: '0.0.8',
+866 silly cache add   type: 'version' }
+867 silly addNamed minimist@0.0.8
+868 verbose addNamed "0.0.8" is a plain semver version for minimist
+869 silly mapToRegistry name minimist
+870 silly mapToRegistry using default registry
+871 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+872 silly mapToRegistry data Result {
+872 silly mapToRegistry   raw: 'minimist',
+872 silly mapToRegistry   scope: null,
+872 silly mapToRegistry   name: 'minimist',
+872 silly mapToRegistry   rawSpec: '',
+872 silly mapToRegistry   spec: 'latest',
+872 silly mapToRegistry   type: 'tag' }
+873 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/minimist
+874 verbose addNameVersion registry:https://nqa-nexus.sprinklr.com:5873/minimist not in flight; fetching
+875 verbose get https://nqa-nexus.sprinklr.com:5873/minimist not expired, no request
+876 silly cache afterAdd minimist@0.0.8
+877 verbose afterAdd /Users/eduardohenrique/.npm/minimist/0.0.8/package/package.json not in flight; writing
+878 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+879 verbose afterAdd /Users/eduardohenrique/.npm/minimist/0.0.8/package/package.json written
+880 silly fetchNamedPackageData qs
+881 silly mapToRegistry name qs
+882 silly mapToRegistry using default registry
+883 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+884 silly mapToRegistry data Result {
+884 silly mapToRegistry   raw: 'qs',
+884 silly mapToRegistry   scope: null,
+884 silly mapToRegistry   name: 'qs',
+884 silly mapToRegistry   rawSpec: '',
+884 silly mapToRegistry   spec: 'latest',
+884 silly mapToRegistry   type: 'tag' }
+885 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/qs
+886 verbose request uri https://nqa-nexus.sprinklr.com:5873/qs
+887 verbose request no auth needed
+888 info attempt registry request try #1 at 07:42:26
+889 verbose etag "01f69da22c906933d598ee93663f489e"
+890 http request GET https://nqa-nexus.sprinklr.com:5873/qs
+891 http 304 https://nqa-nexus.sprinklr.com:5873/qs
+892 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+892 verbose headers   etag: '"01f69da22c906933d598ee93663f489e"',
+892 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+892 verbose headers   date: 'Wed, 31 Aug 2016 10:42:26 GMT',
+892 verbose headers   connection: 'keep-alive' }
+893 silly get cb [ 304,
+893 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+893 silly get     etag: '"01f69da22c906933d598ee93663f489e"',
+893 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+893 silly get     date: 'Wed, 31 Aug 2016 10:42:26 GMT',
+893 silly get     connection: 'keep-alive' } ]
+894 verbose etag https://nqa-nexus.sprinklr.com:5873/qs from cache
+895 verbose get saving qs to /Users/eduardohenrique/.npm/nqa-nexus.sprinklr.com_5873/qs/.cache.json
+896 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+897 silly resolveWithNewModule qs@2.3.3 checking installable status
+898 silly cache add args [ 'qs@~2.3.3', null ]
+899 verbose cache add spec qs@~2.3.3
+900 silly cache add parsed spec Result {
+900 silly cache add   raw: 'qs@~2.3.3',
+900 silly cache add   scope: null,
+900 silly cache add   name: 'qs',
+900 silly cache add   rawSpec: '~2.3.3',
+900 silly cache add   spec: '>=2.3.3 <2.4.0',
+900 silly cache add   type: 'range' }
+901 silly addNamed qs@>=2.3.3 <2.4.0
+902 verbose addNamed ">=2.3.3 <2.4.0" is a valid semver range for qs
+903 silly addNameRange { name: 'qs', range: '>=2.3.3 <2.4.0', hasData: false }
+904 silly mapToRegistry name qs
+905 silly mapToRegistry using default registry
+906 silly mapToRegistry registry https://nqa-nexus.sprinklr.com:5873/
+907 silly mapToRegistry data Result {
+907 silly mapToRegistry   raw: 'qs',
+907 silly mapToRegistry   scope: null,
+907 silly mapToRegistry   name: 'qs',
+907 silly mapToRegistry   rawSpec: '',
+907 silly mapToRegistry   spec: 'latest',
+907 silly mapToRegistry   type: 'tag' }
+908 silly mapToRegistry uri https://nqa-nexus.sprinklr.com:5873/qs
+909 verbose addNameRange registry:https://nqa-nexus.sprinklr.com:5873/qs not in flight; fetching
+910 verbose get https://nqa-nexus.sprinklr.com:5873/qs not expired, no request
+911 silly addNameRange number 2 { name: 'qs', range: '>=2.3.3 <2.4.0', hasData: true }
+912 silly addNameRange versions [ 'qs',
+912 silly addNameRange   [ '0.0.1',
+912 silly addNameRange     '0.0.2',
+912 silly addNameRange     '0.0.3',
+912 silly addNameRange     '0.0.4',
+912 silly addNameRange     '0.0.5',
+912 silly addNameRange     '0.0.6',
+912 silly addNameRange     '0.0.7',
+912 silly addNameRange     '0.1.0',
+912 silly addNameRange     '0.2.0',
+912 silly addNameRange     '0.3.0',
+912 silly addNameRange     '0.3.1',
+912 silly addNameRange     '0.3.2',
+912 silly addNameRange     '0.4.0',
+912 silly addNameRange     '0.4.1',
+912 silly addNameRange     '0.4.2',
+912 silly addNameRange     '0.5.0',
+912 silly addNameRange     '0.5.1',
+912 silly addNameRange     '0.5.2',
+912 silly addNameRange     '0.5.3',
+912 silly addNameRange     '0.5.4',
+912 silly addNameRange     '0.5.5',
+912 silly addNameRange     '0.5.6',
+912 silly addNameRange     '0.6.0',
+912 silly addNameRange     '0.6.1',
+912 silly addNameRange     '0.6.2',
+912 silly addNameRange     '0.6.3',
+912 silly addNameRange     '0.6.4',
+912 silly addNameRange     '0.6.5',
+912 silly addNameRange     '0.6.6',
+912 silly addNameRange     '1.0.0',
+912 silly addNameRange     '1.0.1',
+912 silly addNameRange     '1.0.2',
+912 silly addNameRange     '1.1.0',
+912 silly addNameRange     '1.2.0',
+912 silly addNameRange     '1.2.1',
+912 silly addNameRange     '1.2.2',
+912 silly addNameRange     '2.0.0',
+912 silly addNameRange     '2.1.0',
+912 silly addNameRange     '2.2.0',
+912 silly addNameRange     '2.2.1',
+912 silly addNameRange     '2.2.2',
+912 silly addNameRange     '2.2.3',
+912 silly addNameRange     '2.2.4',
+912 silly addNameRange     '2.2.5',
+912 silly addNameRange     '2.3.0',
+912 silly addNameRange     '2.3.1',
+912 silly addNameRange     '2.3.2',
+912 silly addNameRange     '2.3.3',
+912 silly addNameRange     '2.4.0',
+912 silly addNameRange     '2.4.1',
+912 silly addNameRange     '2.4.2',
+912 silly addNameRange     '3.0.0',
+912 silly addNameRange     '3.1.0',
+912 silly addNameRange     '4.0.0',
+912 silly addNameRange     '5.0.0',
+912 silly addNameRange     '5.1.0',
+912 silly addNameRange     '5.2.0',
+912 silly addNameRange     '6.0.0',
+912 silly addNameRange     '6.0.1',
+912 silly addNameRange     '6.0.2',
+912 silly addNameRange     '6.1.0',
+912 silly addNameRange     '6.2.0',
+912 silly addNameRange     '5.2.1',
+912 silly addNameRange     '6.2.1' ] ]
+913 silly addNamed qs@2.3.3
+914 verbose addNamed "2.3.3" is a plain semver version for qs
+915 silly cache afterAdd qs@2.3.3
+916 verbose afterAdd /Users/eduardohenrique/.npm/qs/2.3.3/package/package.json not in flight; writing
+917 verbose correctMkdir /Users/eduardohenrique/.npm correctMkdir not in flight; initializing
+918 verbose afterAdd /Users/eduardohenrique/.npm/qs/2.3.3/package/package.json written
+919 silly loadAllDepsIntoIdealTree Finishing
+920 silly idealTree:prePrune lib
+920 silly idealTree:prePrune └─┬ http-server@0.9.0
+920 silly idealTree:prePrune   ├── async@0.9.0
+920 silly idealTree:prePrune   ├── colors@1.0.3
+920 silly idealTree:prePrune   ├── corser@2.0.1
+920 silly idealTree:prePrune   ├── ecstatic@1.4.1
+920 silly idealTree:prePrune   ├── eventemitter3@1.2.0
+920 silly idealTree:prePrune   ├── he@0.5.0
+920 silly idealTree:prePrune   ├── http-proxy@1.14.0
+920 silly idealTree:prePrune   ├── mime@1.3.4
+920 silly idealTree:prePrune   ├── minimist@1.2.0
+920 silly idealTree:prePrune   ├─┬ mkdirp@0.5.1
+920 silly idealTree:prePrune   │ └── minimist@0.0.8
+920 silly idealTree:prePrune   ├── opener@1.4.1
+920 silly idealTree:prePrune   ├─┬ optimist@0.6.1
+920 silly idealTree:prePrune   │ └── minimist@0.0.10
+920 silly idealTree:prePrune   ├── portfinder@0.4.0
+920 silly idealTree:prePrune   ├── qs@2.3.3
+920 silly idealTree:prePrune   ├── requires-port@1.0.0
+920 silly idealTree:prePrune   ├── union@0.4.4
+920 silly idealTree:prePrune   ├── url-join@1.1.0
+920 silly idealTree:prePrune   └── wordwrap@0.0.3
+921 silly loadIdealTree Finishing
+922 silly currentTree lib
+923 silly idealTree lib
+923 silly idealTree └─┬ http-server@0.9.0
+923 silly idealTree   ├── async@0.9.0
+923 silly idealTree   ├── colors@1.0.3
+923 silly idealTree   ├── corser@2.0.1
+923 silly idealTree   ├── ecstatic@1.4.1
+923 silly idealTree   ├── eventemitter3@1.2.0
+923 silly idealTree   ├── he@0.5.0
+923 silly idealTree   ├── http-proxy@1.14.0
+923 silly idealTree   ├── mime@1.3.4
+923 silly idealTree   ├── minimist@1.2.0
+923 silly idealTree   ├─┬ mkdirp@0.5.1
+923 silly idealTree   │ └── minimist@0.0.8
+923 silly idealTree   ├── opener@1.4.1
+923 silly idealTree   ├─┬ optimist@0.6.1
+923 silly idealTree   │ └── minimist@0.0.10
+923 silly idealTree   ├── portfinder@0.4.0
+923 silly idealTree   ├── qs@2.3.3
+923 silly idealTree   ├── requires-port@1.0.0
+923 silly idealTree   ├── union@0.4.4
+923 silly idealTree   ├── url-join@1.1.0
+923 silly idealTree   └── wordwrap@0.0.3
+924 silly generateActionsToTake Starting
+925 silly install generateActionsToTake
+926 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+927 silly rollbackFailedOptional Starting
+928 silly rollbackFailedOptional Finishing
+929 silly runTopLevelLifecycles Starting
+930 silly runTopLevelLifecycles Finishing
+931 silly install printInstalled
+932 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+932 verbose stack     at Error (native)
+933 verbose cwd /Users/eduardohenrique/projects/composition-over-inheritance_css-talk
+934 error Darwin 14.5.0
+935 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "http-server"
+936 error node v5.5.0
+937 error npm  v3.8.6
+938 error path /usr/local/lib/node_modules
+939 error code EACCES
+940 error errno -13
+941 error syscall access
+942 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+942 error     at Error (native)
+942 error  { [Error: EACCES: permission denied, access '/usr/local/lib/node_modules']
+942 error   errno: -13,
+942 error   code: 'EACCES',
+942 error   syscall: 'access',
+942 error   path: '/usr/local/lib/node_modules' }
+943 error Please try running this command again as root/Administrator.
+944 verbose exit [ -13, true ]
